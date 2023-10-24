@@ -1,0 +1,29 @@
+{
+  "name": "rakibul",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { 
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@sanity/image-url": "^1.0.2",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "framer-motion": "^10.12.22",
+    "next": "13.4.10",
+    "next-sanity": "^5.1.2",
+    "node-sass": "^9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-tooltip": "^5.20.0",
+    "sanity": "^3.14.2",
+    "sass": "^1.63.6",
+    "typescript": "5.1.6"
+  }
+}
