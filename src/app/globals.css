@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Add to your Tailwind config file for better organization */
+.icon-style {
+  @apply text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.container-style {
+  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-gray-100 dark:bg-neutral-800 w-full mx-auto border border-neutral-200 dark:border-neutral-700 overflow-hidden h-[60vh];
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.sidebar-body-style {
+  @apply justify-between gap-10;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.sidebar-content {
+  @apply flex flex-col flex-1 overflow-y-auto overflow-x-hidden;
+}
+.links-style {
+  @apply mt-8 flex flex-col gap-2;
+}
+.avatar-style {
+  @apply h-7 w-7 flex-shrink-0 rounded-full;
+}
+.logo-style {
+  @apply font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20;
+}
+.logo-box {
+  @apply h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0;
+}
+.logo-text {
+  @apply font-medium text-black dark:text-white whitespace-pre;
+}
+.dashboard-style {
+  @apply p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 text-white dark:bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full;
+}
+.content-box {
+  @apply h-20 w-full rounded-lg bg-gray-100 dark:bg-neutral-800 animate-pulse;
 }
