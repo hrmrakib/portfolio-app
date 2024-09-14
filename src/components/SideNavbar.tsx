@@ -7,14 +7,15 @@ import {
   IconSettings,
   IconUserBolt,
   IconContract,
-  IconHome, 
-  Icon
+  IconHome,
+  Icon,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "../lib/utils";
 import { BiSolidContact } from "react-icons/bi";
+import App from "./App";
 
 export function SidebarDemo() {
   const links = [
@@ -56,7 +57,7 @@ export function SidebarDemo() {
     {
       label: "Contact",
       href: "#",
-    //   icon: <BiSolidContact className='icon-style' />,
+      //   icon: <BiSolidContact className='icon-style' />,
       icon: <IconContract className='icon-style' />,
     },
   ];
@@ -75,8 +76,7 @@ export function SidebarDemo() {
               ))}
             </div>
           </div>
-
-          <SidebarLink
+          {/* <SidebarLink
             link={{
               label: "Manu Arora",
               href: "#",
@@ -90,10 +90,11 @@ export function SidebarDemo() {
                 />
               ),
             }}
-          />
+          /> */}
+          div
         </SidebarBody>
       </Sidebar>
-      <Dashboard />
+      <App />
     </div>
   );
 }
@@ -117,8 +118,4 @@ export const LogoIcon = () => (
   </Link>
 );
 
-const Dashboard = () => (
-  <div className='overflow-y-scroll'>
-    
-  </div>
-);
+const Dashboard = () => <div className='overflow-y-scroll'></div>;

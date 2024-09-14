@@ -36,3 +36,42 @@
 .content-box {
   @apply h-20 w-full rounded-lg bg-gray-100 dark:bg-neutral-800 animate-pulse;
 }
+/* hero-bg */
+.hero_area {
+  background: url("/programming-bg.jpg") no-repeat;
+  background-position: right bottom;
+  background-size: 100% 100%;
+  position: relative;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.517);
+}
+/* profile style */
+.profile {
+  border: 3px solid transparent;
+  background-image: linear-gradient(#ededed, #d1d1d1),
+    linear-gradient(65deg, #f53520 0%, #083be3 75%, #077e15 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 50%;
+}
+
+/* about page bg-image */
+.about-bg {
+  background: linear-gradient(80deg, #070211ca 0%, rgba(7, 2, 17, 0) 100%),
+    url("https://i.ibb.co/vhbBB3Z/programmer.jpg") no-repeat;
+  background-position: right bottom;
+  background-size: 100% 100%;
+}
+
+.my-p {
+  color: #a2a2a2;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
