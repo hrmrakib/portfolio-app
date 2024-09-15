@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section id='about' className='my-12 lg:my-32'>
       <div>
-        <h3 className='color-primary text-xl font-medium mb-3'>About Me</h3>
+        <h3 className='text-[#55e6a5] text-xl font-medium mb-3'>About Me</h3>
         <h2 className='text-3xl lg:text-5xl font-semibold text-white leading-normal'>
           Crafting stories through design and <br />
           innovation

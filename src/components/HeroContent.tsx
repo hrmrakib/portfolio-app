@@ -25,7 +25,7 @@ const HeroContent = () => {
               apply my expertise and further excel in the Web Development field.
             </p>
             <button
-            //   onClick={handleDownload}
+              //   onClick={handleDownload}
               type='button'
               className='text-white flex items-center gap-2 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm md:text-base lg:text-lg px-5 py-2.5 text-center me-2 mb-2'
             >
@@ -34,7 +34,7 @@ const HeroContent = () => {
           </div>
 
           <div className='w-52 justify-self-center hidden md:flex'>
-            <img className='w-full rotate' src='./assets/react.png' alt='' />
+            <img className='w-full rotate' src='./react.png' alt='' />
           </div>
         </div>
       </section>

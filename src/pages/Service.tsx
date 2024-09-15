@@ -1,4 +1,5 @@
 import { GoDotFill } from "react-icons/go";
+import { services } from "@/constants";
 
 export const ThreeDot = () => {
   return (
@@ -10,36 +11,12 @@ export const ThreeDot = () => {
   );
 };
 
-const services = [
-  {
-    id: 1,
-    title: "Frontend Development",
-    description:
-      "Frontend developer creating seamless, user-friendly interfaces with creativity, precision, and a passion for enhancing online experiences.",
-    img: "./services/frontend.jpg",
-  },
-  {
-    id: 2,
-    title: "React Application Development",
-    description:
-      "Crafting dynamic, high-performance React applications with clean code, intuitive design, and seamless user experiences for diverse audiences.",
-    img: "./services/react-app.jpg",
-  },
-  {
-    id: 3,
-    title: "Full-Stack Development",
-    description:
-      "Building robust, scalable web applications with seamless frontend and backend integration.",
-    img: "./services/fullstack.png",
-  },
-];
-
 const Service = () => {
   return (
     <>
       <section id='service' className='my-12 lg:my-32'>
         <div className='text-center'>
-          <h3 className='color-primary text-2xl mb-3 mt-12'>MY SERVICE</h3>
+          <h3 className='text-[#55e6a5] text-2xl mb-3 mt-12'>MY SERVICE</h3>
           <h2 className='text-3xl lg:text-5xl font-bold text-white leading-snug max-w-[790px] mx-auto'>
             Bringing your vision to life with precision and passion
           </h2>

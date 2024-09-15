@@ -7,7 +7,7 @@
   @apply text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0;
 }
 .container-style {
-  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-gray-100 dark:bg-neutral-800 w-full mx-auto border border-neutral-200 dark:border-neutral-700 overflow-hidden h-[60vh];
+  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-[#09101A] dark:bg-neutral-800 w-full mx-auto border border-neutral-200 dark:border-neutral-700 overflow-hidden h-[60vh];
 }
 .sidebar-body-style {
   @apply justify-between gap-10;
@@ -51,6 +51,18 @@
   height: 100%;
   background-color: rgba(8, 8, 8, 0.517);
 }
+.rotate {
+  animation: rotation 18s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 /* profile style */
 .profile {
   border: 3px solid transparent;
@@ -74,4 +86,90 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+}
+
+/* tooltip ============= */
+.live-link {
+  position: relative;
+}
+.live-link :hover .icon {
+  color: white;
+}
+.live-link .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  width: max-content;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.live-link:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.live-link a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.live-link a.social {
+  width: 35px;
+  height: 35px;
+  background: rgb(215, 215, 215);
+}
+.live-link a:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.live-link a:hover i {
+  color: white;
+  z-index: 99;
+}
+.live-link a .filled {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.live-link a .filled2 {
+  transition: all 199ms ease-in-out;
+}
+
+.live-link a:hover .filled {
+  height: 100%;
+}
+.live-link a[data-link="live"] .filled,
+.live-link a[data-link="live"] ~ .tooltip {
+  background-color: #1db954;
+}
+.live-link a[data-link="code"] .filled,
+.live-link a[data-link="code"] ~ .tooltip {
+  background-color: crimson;
+}
+.live-link a[data-link="linkedin"] .filled {
+  background-color: #0077b5;
+}
+.live-link a[data-link="facebook"] .filled {
+  background-color: rgb(47, 118, 239);
+}
+.live-link a[data-link="github"] .filled {
+  background-color: chocolate;
 }
