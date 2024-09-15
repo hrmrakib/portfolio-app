@@ -1,7 +1,18 @@
+"use client";
 import { FaEye } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 import { projects } from "@/constants";
+
+import React from "react";
+import { BackgroundGradient } from "../components/ui/background-gradient";
+import { IconAppWindow } from "@tabler/icons-react";
+import Image from "next/image";
+import img1 from "./portfolio1.jpg";
+
+const Apo = () => {
+  return <></>;
+};
 
 const Portfolio = () => {
   const [projectLength, setProjectLength] = useState(3);
@@ -30,22 +41,32 @@ const Portfolio = () => {
         </ul>
       </div>
 
-      <div className='mt-12 grid justify-center md:grid-cols-2 lg:grid-cols-3 gap-12'>
+      <div className='mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-12'>
         {projects.slice(0, projectLength).map((project) => (
-          <div
-            key={project?.id}
-            className='card max-w-80 bg-[#fefefcfa] p-5 rounded-xl'
-          >
-            <div className='relative'>
+          <div key={project?.id}>
+            <BackgroundGradient className='relative rounded-[22px] w-full min-h-[440px] p-4 sm:p-10 bg-white dark:bg-zinc-900'>
               <img
-                className='w-full h-48 rounded-lg'
                 src={project?.image}
-                alt={project?.name + ":image"}
+                alt={project?.name}
+                height='550'
+                width='440'
+                className='object-cover h-[300px] rounded-md'
               />
-              <span className='relative bottom-5 left-6 px-3 py-2 bg-[#fefefcfa] text-gray-600 text-sm font-normal rounded-t-xl'>
-                {project?.tags}
-              </span>
+              <p className='text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>
+                {project?.name}
+              </p>
 
+              <p className='text-sm text-neutral-600 dark:text-neutral-400'>
+                {project?.description}
+              </p>
+              <button className='rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
+                <span>Buy now </span>
+                <span className='bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white'>
+                  $100
+                </span>
+              </button>
+
+              {/* external link */}
               <div className='flex gap-3 absolute top-4 right-4'>
                 <div className='live-link'>
                   <a
@@ -55,7 +76,7 @@ const Portfolio = () => {
                     target='_blank'
                   >
                     <div className='filled'></div>
-                    <FaEye className='text-2xl text-black z-50 icon' />
+                    <FaEye className='text-xl text-black z-50 icon' />
                   </a>
                   <div className='tooltip'>Live Preview</div>
                 </div>
@@ -68,16 +89,12 @@ const Portfolio = () => {
                     target='_blank'
                   >
                     <div className='filled'></div>
-                    <FaGithub className='text-2xl text-black z-50 icon' />
+                    <FaGithub className='text-xl text-black z-50 icon' />
                   </a>
                   <div className='tooltip'>Source Code</div>
                 </div>
               </div>
-            </div>
-            <h3 className='text-2xl text-black font-semibold mb-2'>
-              {project?.name}
-            </h3>
-            <p className='desc pb-2 text-gray-700'>{project?.description}</p>
+            </BackgroundGradient>
           </div>
         ))}
       </div>

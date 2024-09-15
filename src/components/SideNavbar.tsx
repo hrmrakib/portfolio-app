@@ -2,19 +2,20 @@
 import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "./ui/sidebar";
 import {
-  IconArrowLeft,
-  IconBrandTabler,
-  IconSettings,
-  IconUserBolt,
-  IconContract,
+  
   IconHome,
-  Icon,
+  IconUserBolt,
+  IconCodeDots,
+  IconDeviceDesktopAnalytics,
+  IconCertificate,
+  IconBriefcase,
+  IconBallpen,
+  IconAddressBook
 } from "@tabler/icons-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "../lib/utils";
-import { BiSolidContact } from "react-icons/bi";
 import App from "./App";
 
 export function SidebarDemo() {
@@ -32,33 +33,32 @@ export function SidebarDemo() {
     {
       label: "Service",
       href: "#",
-      icon: <IconSettings className='icon-style' />,
+      icon: <IconCodeDots className='icon-style' />,
     },
     {
       label: "Skills",
       href: "#",
-      icon: <IconArrowLeft className='icon-style' />,
+      icon: <IconDeviceDesktopAnalytics className='icon-style' />,
     },
     {
       label: "Experience",
       href: "#",
-      icon: <IconArrowLeft className='icon-style' />,
+      icon: <IconCertificate className='icon-style' />,
     },
     {
       label: "Portfolio",
       href: "#",
-      icon: <IconArrowLeft className='icon-style' />,
+      icon: <IconBriefcase className='icon-style' />,
     },
     {
       label: "Blog",
       href: "#",
-      icon: <IconArrowLeft className='icon-style' />,
+      icon: <IconBallpen className='icon-style' />,
     },
     {
       label: "Contact",
       href: "#",
-      //   icon: <BiSolidContact className='icon-style' />,
-      icon: <IconContract className='icon-style' />,
+      icon: <IconAddressBook className='icon-style' />,
     },
   ];
 
