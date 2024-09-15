@@ -1,11 +1,14 @@
 import { MdCloudDownload } from "react-icons/md";
 // import handleDownload from "../utils/handleDownload";
+import { FlipWords } from "../components/ui/flip-words";
 
 const HeroContent = () => {
-  return (
+  const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
+
+  return ( 
     <>
       <section
-        id='home'
+        id='home'  
         className='hero_area bg-[#02050A] text-[#a2a2a2] h-screen'
       >
         <div className='layer grid grid-cols-1 lg:grid-cols-3 justify-center items-center p-4 lg:p-20'>
@@ -15,11 +18,13 @@ const HeroContent = () => {
               <br />
               CREATIVE
             </h2>
-            <h2 className='dynamic text-green-500 font-bold text-xl md:text-3xl lg:text-4xl mb-5 md:mb-8'>
-              Frontend Developer
+           
+      
+            <h2 className='dynamic  font-bold text-xl md:text-3xl lg:text-4xl mb-5 md:mb-8'>
+              <FlipWords words={words} className="text-green-500" /> <br /> 
             </h2>
             <p className='my-p max-w-lg leading-6 mb-6 text-gray-100'>
-              With a fervent dedication to modern front-end technologies, I
+              With a fervent dedication to modern web technologies, I
               aspire to utilize my technical prowess and leadership acumen to
               propel success in dynamic tech projects, seeking an environment to
               apply my expertise and further excel in the Web Development field.

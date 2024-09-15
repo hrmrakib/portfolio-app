@@ -8,11 +8,6 @@ import React from "react";
 import { BackgroundGradient } from "../components/ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
-import img1 from "./portfolio1.jpg";
-
-const Apo = () => {
-  return <></>;
-};
 
 const Portfolio = () => {
   const [projectLength, setProjectLength] = useState(3);
@@ -50,21 +45,20 @@ const Portfolio = () => {
                 alt={project?.name}
                 height='550'
                 width='440'
-                className='object-cover h-[300px] rounded-md'
+                className='object-cover h-[220px] rounded-md'
               />
-              <p className='text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>
+              <p className='text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>
                 {project?.name}
               </p>
 
-              <p className='text-sm text-neutral-600 dark:text-neutral-400'>
+              <p className='text-base text-neutral-600 dark:text-neutral-400'>
                 {project?.description}
               </p>
-              <button className='rounded-full pl-4 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
-                <span>Buy now </span>
+              <div className='max-w-max rounded-full pl-2 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
                 <span className='bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white'>
-                  $100
+                  Next.js
                 </span>
-              </button>
+              </div>
 
               {/* external link */}
               <div className='flex gap-3 absolute top-4 right-4'>
