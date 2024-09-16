@@ -153,7 +153,7 @@ const Skill = () => {
                   />
                 </div>
                 <span className='text-center text-white'>{tech?.name}</span>
-              </div>
+              </div> 
             ))}
           </div>
         </div>
