@@ -1,4 +1,5 @@
 import { FlipWords } from "../components/ui/flip-words";
+import Image from 'next/image';
 
 const About = () => {
   const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
@@ -16,7 +17,7 @@ const About = () => {
       <div className='grid gap-20 lg:grid-cols-2 my-16'>
         <div className='grid gap-20'>
           <div>
-            <img className='w-28 mb-8' src='./about/ambition.png' alt='' />
+            <Image className='w-28 mb-8' width={200} height={200} src='/about/ambition.png' alt='ambition' />
             <h2 className='text-3xl font-semibold text-white mb-3'>
               My Ambition
             </h2>
@@ -28,7 +29,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <img className='w-28 mb-8' src='./about/target.png' alt='' />
+            <Image className='w-28 mb-8' width={200} height={200} src='/about/target.png' alt='target' />
             <h2 className='text-3xl font-semibold text-white mb-3'>
               My Purpose
             </h2>
@@ -60,9 +61,10 @@ const About = () => {
           </div>
 
           <div className='w-20 md:w-36 absolute bottom-2 right-2  rounded-full shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>
-            <img
+            <Image
               className='w-20 md:w-36 profile'
-              src='./about/rakib.png'
+              width={200} height={200}
+              src='/about/rakib.png'
               alt='Rakibul'
             />
           </div>

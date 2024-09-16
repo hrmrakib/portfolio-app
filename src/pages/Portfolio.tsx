@@ -6,7 +6,6 @@ import { projects } from "@/constants";
 
 import React from "react";
 import { BackgroundGradient } from "../components/ui/background-gradient";
-import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 
 const Portfolio = () => {
@@ -40,11 +39,11 @@ const Portfolio = () => {
         {projects.slice(0, projectLength).map((project) => (
           <div key={project?.id}>
             <BackgroundGradient className='relative rounded-[22px] w-full min-h-[440px] p-4 sm:p-10 bg-white dark:bg-zinc-900'>
-              <img
+              <Image
                 src={project?.image}
                 alt={project?.name}
-                height='550'
-                width='440'
+                height={550}
+                width={440}
                 className='object-cover h-[220px] rounded-md'
               />
               <p className='text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>

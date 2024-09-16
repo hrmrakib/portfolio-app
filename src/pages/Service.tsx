@@ -1,6 +1,7 @@
 import { GoDotFill } from "react-icons/go";
 import { services } from "@/constants";
 import { Meteors } from "../components/ui/meteors";
+import Image from 'next/image';
 
 export const ThreeDot = () => {
   return (
@@ -29,7 +30,7 @@ const Service = () => {
         {
             services.map((service)=> (
 
-<div key={service.id} className='bg-[#09101A] p-6 relative rounded-lg transition duration-200 delay-100 hover:-translate-y-12'>
+    <div key={service.id} className='bg-[#09101A] p-6 relative rounded-lg transition duration-200 delay-100 hover:-translate-y-12'>
       <div className="w-full relative">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
@@ -66,10 +67,12 @@ const Service = () => {
           <Meteors number={20} />
         </div>
       </div>
-      <img
+      <Image
           className='w-20 h-20 absolute -top-16 rounded-xl'
           src={service?.img}
-          alt=''
+          width={100}
+          height={100}
+          alt='service'
       />
       <ThreeDot />
     </div>

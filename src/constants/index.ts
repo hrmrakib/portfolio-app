@@ -6,7 +6,7 @@ export const projects = [
     description: "It's a frontend react, tailwind design project.",
     liveLink: "https://brain-eye.vercel.app/",
     githubLink: "https://github.com/hrmrakib/brain-eye",
-    image: "./projects/brain-eye.png",
+    image: "/projects/brain-eye.png",
   },
   {
     id: "666e361d5f2cfe66ba8e4b7c",
@@ -16,7 +16,7 @@ export const projects = [
       "It's a restaurant management website build on React, Node, Express and MongoDB.",
     liveLink: "https://food-table-restaurant.web.app/",
     githubLink: "https://github.com/hrmrakib/food-table-client",
-    image: "./projects/food-table.png",
+    image: "/projects/food-table.png",
   },
   {
     id: "666e3a567e680bbc1308f590",
@@ -25,7 +25,7 @@ export const projects = [
     description: "It's a tourism management website using MERN Stack.",
     liveLink: "https://tourism-app-looming.web.app/",
     githubLink: "https://github.com/hrmrakib/tourism-app-looming-client",
-    image: "./projects/looming.png",
+    image: "/projects/looming.png",
   },
   {
     id: "666e3d357e680bbc1308f591",
@@ -36,7 +36,7 @@ export const projects = [
     liveLink: "https://animal-carings.web.app/",
     githubLink: "https://github.com/hrmrakib/animal-caring-client",
 
-    image: "./projects/animal-caring.png",
+    image: "/projects/animal-caring.png",
   },
   {
     id: "66a383d6f808f37e00aa21e0",
@@ -46,7 +46,7 @@ export const projects = [
       "It's a simple social media type website design by HTML, CSS, and JavaScript!",
     liveLink: "https://a-social.vercel.app/",
     githubLink: "https://github.com/hrmrakib/a-social",
-    image: "./projects/a-social.png",
+    image: "/projects/a-social.png",
   },
   {
     id: "66e3fcbb8673330bf922282d",
@@ -56,7 +56,7 @@ export const projects = [
       "Fullstack functionality based Single page website where users can perform some search filtering functionalities",
     liveLink: "https://scic-task1.web.app/",
     githubLink: "https://github.com/hrmrakib/scic-task-client",
-    image: "./projects/tech.png",
+    image: "/projects/tech.png",
   },
 ];
 
@@ -66,21 +66,21 @@ export const services = [
     title: "Frontend Development",
     description:
       "Frontend developer creating seamless, user-friendly interfaces with creativity, precision, and a passion for enhancing online experiences.",
-    img: "./services/frontend.jpg",
+    img: "/services/frontend.jpg",
   },
   {
     id: 2,
     title: "React Application Development",
     description:
       "Crafting dynamic, high-performance React applications with clean code, intuitive design, and seamless user experiences for diverse audiences.",
-    img: "./services/react-app.jpg",
+    img: "/services/react-app.jpg",
   },
   {
     id: 3,
     title: "Full-Stack Development",
     description:
       "Building robust, scalable web applications with seamless frontend and backend integration.",
-    img: "./services/fullstack.png",
+    img: "/services/fullstack.png",
   },
 ];
 
@@ -88,72 +88,72 @@ export const technologies = [
   {
     id: 1,
     name: "HTML",
-    image: "./tech/html.png",
+    image: "/tech/html.png",
   },
   {
     id: 2,
     name: "CSS",
-    image: "./tech/css.png",
+    image: "/tech/css.png",
   },
   {
     id: 3,
     name: "JavaScript",
-    image: "./tech/javascript.png",
+    image: "/tech/javascript.png",
   },
   {
     id: 4,
     name: "React.js",
-    image: "./tech/reactjs.png",
+    image: "/tech/reactjs.png",
   },
   {
     id: 5,
     name: "Next.js",
-    image: "./tech/nextjs.png",
+    image: "/tech/nextjs.png",
   },
   {
     id: 6,
     name: "TypeScript",
-    image: "./tech/typescript.png",
+    image: "/tech/typescript.png",
   },
   {
     id: 7,
     name: "Firebase",
-    image: "./tech/firebase.webp",
+    image: "/tech/firebase.webp",
   },
   {
     id: 8,
     name: "Git & GitHub",
-    image: "./tech/git.png",
+    image: "/tech/git.png",
   },
   {
     id: 9,
     name: "Figma",
-    image: "./tech/figma.png",
+    image: "/tech/figma.png",
   },
   {
     id: 10,
     name: "Tailwind CSS",
-    image: "./tech/tailwind.png",
+    image: "/tech/tailwind.png",
   },
   {
     id: 11,
     name: "NodeJS",
-    image: "./tech/nodejs.png",
+    image: "/tech/nodejs.png",
   },
   {
     id: 12,
     name: "ExpressJS",
-    image: "./tech/express.png",
+    image: "/tech/express.png",
   },
   {
     id: 13,
     name: "MongoDB",
-    image: "./tech/mongodb.png",
+    image: "/tech/mongodb.png",
   },
   {
     id: 14,
     name: "Mongoose",
-    image: "./tech/mongoose.png",
+    image: "/tech/mongoose.png",
   },
 ];
 

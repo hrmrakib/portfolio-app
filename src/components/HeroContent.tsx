@@ -1,6 +1,7 @@
 import { MdCloudDownload } from "react-icons/md";
-// import handleDownload from "../utils/handleDownload";
+import handleDownload from "../lib/handleDownload";
 import { FlipWords } from "../components/ui/flip-words";
+import Image from "next/image";
 
 const HeroContent = () => {
   const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
@@ -14,7 +15,7 @@ const HeroContent = () => {
         <div className='layer grid grid-cols-1 lg:grid-cols-3 justify-center items-center p-4 lg:p-20'>
           <div className='hero_left col-span-2'>
             <h2 className='text-2xl md:text-4xl lg:text-6xl lg:pt-8 text-white font-extrabold lg:leading-tight'>
-              HI, I'M Rakibul!
+              HI, I&apos;M Rakibul!
               <br />
               CREATIVE
             </h2>
@@ -30,7 +31,7 @@ const HeroContent = () => {
               apply my expertise and further excel in the Web Development field.
             </p>
             <button
-              //   onClick={handleDownload}
+              onClick={handleDownload}
               type='button'
               className='text-white flex items-center gap-2 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm md:text-base lg:text-lg px-5 py-2.5 text-center me-2 mb-2'
             >
@@ -39,7 +40,7 @@ const HeroContent = () => {
           </div>
 
           <div className='w-52 justify-self-center hidden md:flex'>
-            <img className='w-full rotate' src='./react.png' alt='' />
+            <Image className='w-full rotate' width={300} height={300} src='/react.png' alt='' />
           </div>
         </div>
       </section>

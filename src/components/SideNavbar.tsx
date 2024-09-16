@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "./ui/sidebar";
 import {
-  
   IconHome,
   IconUserBolt,
   IconCodeDots,
@@ -13,7 +12,6 @@ import {
   IconAddressBook
 } from "@tabler/icons-react";
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "../lib/utils";
 import App from "./App";
@@ -76,22 +74,7 @@ export function SidebarDemo() {
               ))}
             </div>
           </div>
-          {/* <SidebarLink
-            link={{
-              label: "Manu Arora",
-              href: "#",
-              icon: (
-                <Image
-                  src=''
-                  className='avatar-style'
-                  width={50}
-                  height={50}
-                  alt='Avatar'
-                />
-              ),
-            }}
-          /> */}
-          div
+         
         </SidebarBody>
       </Sidebar>
       <App />
