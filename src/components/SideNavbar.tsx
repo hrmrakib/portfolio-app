@@ -22,42 +22,42 @@ export function SidebarDemo() {
   const links = [
     {
       label: "Home",
-      href: "#",
+      href: "#home",
       icon: <IconHome className='icon-style' />,
     },
     {
       label: "About Me",
-      href: "#",
+      href: "#about",
       icon: <IconUserBolt className='icon-style' />,
     },
     {
       label: "Service",
-      href: "#",
+      href: "#service",
       icon: <IconCodeDots className='icon-style' />,
     },
     {
       label: "Skills",
-      href: "#",
+      href: "#skill",
       icon: <IconDeviceDesktopAnalytics className='icon-style' />,
     },
     {
       label: "Experience",
-      href: "#",
+      href: "#experience",
       icon: <IconCertificate className='icon-style' />,
     },
     {
       label: "Portfolio",
-      href: "#",
+      href: "#portfolio",
       icon: <IconBriefcase className='icon-style' />,
     },
     {
       label: "Blog",
-      href: "#",
+      href: "#blog",
       icon: <IconBallpen className='icon-style' />,
     },
     {
       label: "Contact",
-      href: "#",
+      href: "#contact",
       icon: <IconAddressBook className='icon-style' />,
     },
   ];
@@ -117,5 +117,3 @@ export const LogoIcon = () => (
     <div className='logo-box' />
   </Link>
 );
-
-const Dashboard = () => <div className='overflow-y-scroll'></div>;

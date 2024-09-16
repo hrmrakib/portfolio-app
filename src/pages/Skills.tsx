@@ -3,6 +3,7 @@ import { MdCloudDownload } from "react-icons/md";
 import { useState } from "react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { technologies, education } from "@/constants";
+import FloatingDockDemo from "@/components/SocialLink"
 
 const Skill = () => {
   const [tract, setTract] = useState("technologies");
@@ -73,7 +74,7 @@ const Skill = () => {
 
       {/* <!-- education content --> */}
 
-      {tract === "education" && (
+    {tract === "education" && (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
           {education?.map((edu) => (
             <div className='border border-gray-600 p-5 rounded-lg'>
@@ -113,7 +114,7 @@ const Skill = () => {
               />
             </div>
             <div className='md:w-2/3 w-full md:pl-8'>
-              <h2 className='text-2xl lg:text-4xl font-bold mb-4'>
+              <h2 className='text-2xl lg:text-4xl text-white font-bold mb-4'>
                 Md Rakibul Alam
               </h2>
               <p className='text-gray-300 mb-4'>
@@ -127,32 +128,8 @@ const Skill = () => {
                 In my free time, I like to explore new tech trends, contribute
                 to open-source projects, and enjoy outdoor activities.
               </p>
-              <div className='live-link flex gap-3 *:text-xl *:border-none'>
-                <a
-                  className='social'
-                  href='https://www.linkedin.com/in/hrmrakib/'
-                  data-link='linkedin'
-                >
-                  <span className='filled filled2'></span>
-                  <FaLinkedin className='text-xl text-black z-50 icon' />
-                </a>
-                <a
-                  className='social'
-                  href='https://www.facebook.com/hrmrakib'
-                  data-link='facebook'
-                >
-                  <span className='filled filled2'></span>
-                  <FaFacebook className='text-xl text-black z-50 icon' />
-                </a>
-                <a
-                  className='social'
-                  href='https://github.com/hrmrakib'
-                  data-link='github'
-                >
-                  <span className='filled filled2'></span>
-                  <FaGithub className='text-xl text-black z-50 icon' />
-                </a>
-              </div>
+              <FloatingDockDemo />
+              
             </div>
           </div>
         </div>

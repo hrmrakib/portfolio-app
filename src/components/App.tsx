@@ -3,6 +3,7 @@ import About from "../pages/About";
 import Service from "../pages/Service";
 import Skill from "@/pages/Skills";
 import Portfolio from "@/pages/Portfolio";
+import Blog from "@/pages/Blog";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Service />
         <Skill />
         <Portfolio />
+        <Blog />
       </div>
     </div>
   );

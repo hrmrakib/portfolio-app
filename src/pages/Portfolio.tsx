@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='my-12 lg:my-32'>
       <div>
-        <h3 className='color-primary text-xl font-medium mb-3'>
+        <h3 className='text-[#55e6a5] text-xl font-medium mb-3'>
           My Recent Portfolio
         </h3>
         <h2 className='text-3xl lg:text-5xl font-semibold text-white leading-normal'>
@@ -54,9 +54,9 @@ const Portfolio = () => {
               <p className='text-base text-neutral-600 dark:text-neutral-400'>
                 {project?.description}
               </p>
-              <div className='max-w-max rounded-full pl-2 pr-1 py-1 text-white flex items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
+              <div className='max-w-max rounded-full pl-2 pr-1 py-1 text-white flex justify-end items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
                 <span className='bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white'>
-                  Next.js
+                {project?.tags}
                 </span>
               </div>
 
@@ -70,7 +70,7 @@ const Portfolio = () => {
                     target='_blank'
                   >
                     <div className='filled'></div>
-                    <FaEye className='text-xl text-black z-50 icon' />
+                    <FaEye className='text-base text-black z-50 icon' />
                   </a>
                   <div className='tooltip'>Live Preview</div>
                 </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
                     target='_blank'
                   >
                     <div className='filled'></div>
-                    <FaGithub className='text-xl text-black z-50 icon' />
+                    <FaGithub className='text-base text-black z-50 icon' />
                   </a>
                   <div className='tooltip'>Source Code</div>
                 </div>

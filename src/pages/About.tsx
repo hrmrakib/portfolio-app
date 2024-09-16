@@ -1,4 +1,8 @@
+import { FlipWords } from "../components/ui/flip-words";
+
 const About = () => {
+  const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
+
   return (
     <section id='about' className='my-12 lg:my-32'>
       <div>
@@ -41,8 +45,8 @@ const About = () => {
           <div className='p-8 text-white'>
             <h2 className='text-xl md:text-4xl mb-1'>Md Rakibul Alam</h2>
             <h3 className='text-sky-500 text-xl mb-2 font-semibold'>
-              Frontend Developer
-            </h3>
+              <FlipWords words={words} className="text-sky-500" /> <br /> 
+            </h3> 
             <p className='text-pink-300'>
               <i className='fa-solid fa-location-dot mr-2'></i> Gazipur,
               Bangladesh
