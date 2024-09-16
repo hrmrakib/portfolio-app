@@ -38,7 +38,7 @@
 }
 /* hero-bg */
 .hero_area {
-  background: url("/programming-bg.jpg") no-repeat;
+  background: url("/programming-bg.webp") no-repeat;
   background-position: right bottom;
   background-size: 100% 100%;
   position: relative;
@@ -76,7 +76,7 @@
 /* about page bg-image */
 .about-bg {
   background: linear-gradient(80deg, #070211ca 0%, rgba(7, 2, 17, 0) 100%),
-    url("https://i.ibb.co/vhbBB3Z/programmer.jpg") no-repeat;
+    url("/about/programmer.webp") no-repeat;
   background-position: right bottom;
   background-size: 100% 100%;
 }
