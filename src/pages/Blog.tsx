@@ -1,5 +1,6 @@
 import {blogs} from "@/constants"
 import Link from "next/link"
+import Image from "next/image";
 
 const Blog = () => {
   
@@ -19,9 +20,11 @@ const Blog = () => {
             <Link key={blog.id} href={`/blog/${blog.id}`}>
               <div className='blog'>
                 <div className='relative mb-3'>
-                  <img
+                  <Image
                     className='rounded w-full h-56'
                     src={blog?.image}
+                    width={250}
+                    height={200}
                     alt=''
                   />
                 </div>

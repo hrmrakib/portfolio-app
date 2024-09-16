@@ -106,10 +106,12 @@ const Skill = () => {
         <div className='p-8 rounded-lg shadow-lg max-w-4xl mx-auto my-10'>
           <div className='flex flex-col md:flex-row items-center'>
             <div className='md:w-1/3 w-full flex justify-center md:justify-start mb-6 md:mb-0'>
-              <img
-                src='./about/rakib.png'
-                alt='Profile'
+              <Image
+                src='/about/rakib.png'
                 className='rounded-full size-36 md:size-48 object-cover profile'
+                width={100}
+                height={100}
+                alt='Profile'
               />
             </div>
             <div className='md:w-2/3 w-full md:pl-8'>

@@ -2,6 +2,7 @@ import { MdCloudDownload } from "react-icons/md";
 import handleDownload from "../lib/handleDownload";
 import { FlipWords } from "../components/ui/flip-words";
 import Image from "next/image";
+import { Meteors } from "../components/ui/meteors";
 
 const HeroContent = () => {
   const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
@@ -43,6 +44,8 @@ const HeroContent = () => {
             <Image className='w-full rotate' width={300} height={300} src='/react.png' alt='' />
           </div>
         </div>
+
+        <Meteors number={25} />
       </section>
     </>
   );

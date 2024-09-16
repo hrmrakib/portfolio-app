@@ -63,7 +63,6 @@ const Service = () => {
             Explore
           </button>
  
-          {/* Meaty part - Meteor effect */}
           <Meteors number={20} />
         </div>
       </div>
@@ -73,11 +72,11 @@ const Service = () => {
           width={100}
           height={100}
           alt='service'
-      />
-      <ThreeDot />
-    </div>
+          />
+          <ThreeDot />
+          </div>
 
-       ))
+        ))
         }                    
         </div>
                 

@@ -52,12 +52,6 @@ const About = () => {
               <i className='fa-solid fa-location-dot mr-2'></i> Gazipur,
               Bangladesh
             </p>
-            <div className='mt-3 border-l-2 border-x-green-600'>
-              <p className='my-p ml-2'>
-                Studied at National University of Bangladesh
-              </p>
-              <p className='my-p ml-2'>Subject: Management</p>
-            </div>
           </div>
 
           <div className='w-20 md:w-36 absolute bottom-2 right-2  rounded-full shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>

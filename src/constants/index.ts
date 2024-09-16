@@ -240,7 +240,7 @@ export const education = [
 export const blogs= [
   {
   "id": "6675968540886a58ddcb2c46",
-  "image": "https://i.ibb.co/kQsVHsb/computer.jpg",
+  "image": "/blogs/computer.jpg",
   "headingTitle": "How to improve user interface of a React application?",
   "summery": "Improving the user interface (UI) of a React application involves a combination of design principles, user experience (UX) best practices, and leveraging modern React features. Here are some steps and tips to enhance the UI of your React application",
   "points": [
@@ -280,7 +280,7 @@ export const blogs= [
   },
   {
   "id": "6675968540886a58ddcb2c47",
-  "image": "https://i.ibb.co/w0tjJYF/react.jpg",
+  "image": "/blogs/react.jpg",
   "headingTitle": "Why should we use React for the front-end?",
   "summery": "🚀 React is a popular choice for front-end development for several reasons",
   "points": [
@@ -324,7 +324,7 @@ export const blogs= [
   },
   {
   "id": "6675968540886a58ddcb2c48",
-  "image": "https://i.ibb.co/p4Zj8cy/occupation.jpg",
+  "image": "/blogs/occupation.jpg",
   "headingTitle": "Why choose the MERN stack?",
   "summery": "Choosing the MERN stack (MongoDB, Express.js, React, Node.js) for web development offers several advantages that make it an attractive choice for developers and businesses alike. Here are the key reasons to choose the MERN stack",
   "points": [
