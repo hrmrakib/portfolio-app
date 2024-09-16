@@ -2,9 +2,10 @@ import Link from 'next/link';
 import React from 'react'
 import { IoHomeOutline } from "react-icons/io5";
 
-const page = ({ params }: { params: { slug: string } }) => {
+// const page = ({ params }: { params: { slug: string } }) => {
+const page = () => {
 
-  const blog = ''
+  
   return (
     <div className='relative bg-[#09101A] min-h-screen'>
       <Link
