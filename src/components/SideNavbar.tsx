@@ -83,14 +83,14 @@ export function SidebarDemo() {
 }
 
 export const Logo = () => (
-  <Link href='#' className='logo-style'>
+  <Link href='/' className='logo-style'>
     <div className='logo-box' />
     <motion.span
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className='logo-text'
     >
-      Acet Labs
+      Great Dev
     </motion.span>
   </Link>
 );

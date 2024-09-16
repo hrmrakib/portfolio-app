@@ -2,7 +2,7 @@ export const projects = [
   {
     id: "66e3fdac8673330bf922282e",
     name: "Brain Eye",
-    tags: "React",
+    tags: "React.js",
     description: "It's a frontend react, tailwind design project.",
     liveLink: "https://brain-eye.vercel.app/",
     githubLink: "https://github.com/hrmrakib/brain-eye",
@@ -39,9 +39,20 @@ export const projects = [
     image: "/projects/animal-caring.png",
   },
   {
+    id: "666e3d357e680bbc1308frt4",
+    name: "Portfolio App",
+    tags: "Next.js",
+    description:
+      "It's my portfolio website! Here has all necessary thing about me!",
+    liveLink: "https://hmrakib.com/",
+    githubLink: "https://github.com/hrmrakib/portfolio-app",
+
+    image: "/projects/this.png",
+  },
+  {
     id: "66a383d6f808f37e00aa21e0",
     name: "A Social",
-    tags: "HTML, CSS, JS",
+    tags: "HTML, CSS",
     description:
       "It's a simple social media type website design by HTML, CSS, and JavaScript!",
     liveLink: "https://a-social.vercel.app/",
@@ -57,6 +68,36 @@ export const projects = [
     liveLink: "https://scic-task1.web.app/",
     githubLink: "https://github.com/hrmrakib/scic-task-client",
     image: "/projects/tech.png",
+  },
+  {
+    id: "66e3fcbkf3430bf9222fm2",
+    name: "Patient Care",
+    tags: "HTML, CSS",
+    description:
+      "HTML, CSS & JS website where patients can inform their health status!",
+    liveLink: "https://patients-care.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/patients-care",
+    image: "/projects/patient-care.png",
+  },
+  {
+    id: "66e3fcbkf3430bf9222jf3k",
+    name: "Web Index",
+    tags: "HTML, CSS",
+    description:
+      "HTML, CSS & JS website where users can inform web index events!",
+    liveLink: "https://web-index-one.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/web-index",
+    image: "/projects/web-index.png",
+  },
+  {
+    id: "66e3fcbkf3430bf922rj20",
+    name: "Doctor Lab",
+    tags: "HTML, CSS",
+    description:
+      "HTML, CSS & JS website where users can inform medical events!",
+    liveLink: "https://health-care-landing-page-azure.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/health-care-landing-page",
+    image: "/projects/health-care.png",
   },
 ];
 
