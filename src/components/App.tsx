@@ -5,6 +5,7 @@ import Skill from "@/pages/Skills";
 import Portfolio from "@/pages/Portfolio";
 import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Portfolio />
         <Blog />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
