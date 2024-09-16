@@ -14,7 +14,7 @@ const About = () => {
         </h2>
       </div>
 
-      <div className='grid gap-20 lg:grid-cols-2 my-16'>
+      <div className='grid gap-20 lg:gap-36 lg:grid-cols-2 my-16'>
         <div className='grid gap-20'>
           <div>
             <Image className='w-28 mb-8' width={200} height={200} src='/about/ambition.png' alt='ambition' />
