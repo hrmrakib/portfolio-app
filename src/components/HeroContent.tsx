@@ -22,7 +22,7 @@ const HeroContent = () => {
             </h2>
            
       
-            <h2 className='dynamic  font-bold text-xl md:text-3xl lg:text-4xl mb-5 md:mb-8'>
+            <h2 className='font-bold text-xl md:text-3xl lg:text-4xl mb-5 lg:mb-8'>
               <FlipWords words={words} className="text-green-500" /> <br /> 
             </h2>
             <p className='my-p max-w-lg leading-6 mb-6 text-gray-100'>
@@ -44,8 +44,10 @@ const HeroContent = () => {
             <Image className='w-full rotate' width={300} height={300} src='/react.png' alt='' />
           </div>
         </div>
-
-        <Meteors number={25} />
+        
+        <div className="hidden md:flex">
+          <Meteors number={25} className="hidden md:flex"/>
+        </div>
       </section>
     </>
   );
