@@ -72,9 +72,9 @@ export const projects = [
   {
     id: "66e3fcbkf3430bf9222fm2",
     name: "Patient Care",
-    tags: "HTML, CSS",
+    tags: "React.js",
     description:
-      "HTML, CSS & JS website where patients can inform their health status!",
+      "It's a React application where patients can inform their health status!",
     liveLink: "https://patients-care.vercel.app/",
     githubLink: "https://github.com/hrmrakib/patients-care",
     image: "/projects/patient-care.png",
@@ -237,138 +237,167 @@ export const education = [
   },
 ];
 
-export const blogs= [
+export const blogs = [
   {
-  "id": "6675968540886a58ddcb2c46",
-  "image": "/blogs/computer.jpg",
-  "headingTitle": "How to improve user interface of a React application?",
-  "summery": "Improving the user interface (UI) of a React application involves a combination of design principles, user experience (UX) best practices, and leveraging modern React features. Here are some steps and tips to enhance the UI of your React application",
-  "points": [
-  {
-  "title": "Adopt a Design System",
-  "description": "Use a design system or component library like Material-UI, Ant Design, or Bootstrap to ensure consistency across your application. Customize these libraries to match your brand’s aesthetics."
+    id: "6675968540886a58ddcb2c46",
+    image: "/blogs/computer.jpg",
+    headingTitle: "How to improve user interface of a React application?",
+    summery:
+      "Improving the user interface (UI) of a React application involves a combination of design principles, user experience (UX) best practices, and leveraging modern React features. Here are some steps and tips to enhance the UI of your React application",
+    points: [
+      {
+        title: "Adopt a Design System",
+        description:
+          "Use a design system or component library like Material-UI, Ant Design, or Bootstrap to ensure consistency across your application. Customize these libraries to match your brand’s aesthetics.",
+      },
+      {
+        title: "Responsive Design",
+        description:
+          "Use CSS media queries to make your application responsive across different devices. Implement grid systems like CSS Grid or Flexbox to create adaptable layouts. Use libraries like react-responsive to conditionally render components based on the screen size.",
+      },
+      {
+        title: "Enhance Accessibility",
+        description:
+          "Use semantic HTML tags to improve the accessibility and SEO of your application. Implement ARIA (Accessible Rich Internet Applications) attributes to make your components accessible to screen readers.",
+      },
+      {
+        title: "Optimize Performance",
+        description:
+          "Code Splitting: Use React's lazy loading and Suspense to load components only when they are needed, improving initial load time.",
+      },
+      {
+        title: "Intuitive Navigation",
+        description:
+          "Implement smooth and intuitive navigation using react-router-dom for managing routes. Use breadcrumbs to help users understand their current location within the application.",
+      },
+      {
+        title: "User Feedback",
+        description:
+          "User Testing: Conduct user testing sessions to gather feedback on the usability and design of your application.Analytics: Use tools like Google Analytics or Mixpanel to track user interactions and identify areas for improvement.",
+      },
+      {
+        title: "Code Quality",
+        description:
+          "Linting and Formatting: Use ESLint and Prettier to maintain consistent code quality and formatting. Component Structure: Keep your components small, focused, and reusable.",
+      },
+      {
+        title: "Regular Updates",
+        description:
+          "Library Updates: Regularly update your dependencies to leverage the latest features and improvements. Refactor Code: Continuously refactor your codebase to improve readability and maintainability.",
+      },
+    ],
   },
   {
-  "title": "Responsive Design",
-  "description": "Use CSS media queries to make your application responsive across different devices. Implement grid systems like CSS Grid or Flexbox to create adaptable layouts. Use libraries like react-responsive to conditionally render components based on the screen size."
+    id: "6675968540886a58ddcb2c47",
+    image: "/blogs/react.jpg",
+    headingTitle: "Why should we use React for the front-end?",
+    summery:
+      "🚀 React is a popular choice for front-end development for several reasons",
+    points: [
+      {
+        title: "Component-Based Architecture",
+        description:
+          "Create user interfaces from components. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
+      },
+      {
+        title: "Virtual DOM",
+        description:
+          "React uses a virtual DOM to efficiently update the UI. Instead of directly manipulating the DOM, React compares the virtual DOM with the actual DOM and only applies the necessary changes. This results in better performance, especially for complex UIs.",
+      },
+      {
+        title: "Rich Ecosystem",
+        description:
+          "React has a large and active ecosystem with plenty of third-party libraries and tools to choose from. Whether you need state management (Redux), routing (React Router), or UI components (Material-UI, Ant Design), you can find a library that fits your needs.",
+      },
+      {
+        title: "SEO Friendliness",
+        description:
+          "As React runs over a server and returns a virtual DOM request while browsing, it makes the web pages light for the search engine crawlers to crawl through the web pages and ultimately makes it easier to rank. The other web pages with Javascript codes with heavy applications make the search engine a little hard to crawl through and make it less supportive of SEO ranking.",
+      },
+      {
+        title: "Cross-Platform Development",
+        description:
+          "React Native, a framework for building native mobile applications using React, continues to gain traction. It allows developers to leverage their existing React skills to build mobile apps for iOS and Android platforms, maximizing code reuse and developer productivity.",
+      },
+      {
+        title: "Server-Side Rendering and Static Site Generation",
+        description:
+          "React's ecosystem has matured to offer powerful solutions for server-side rendering (SSR) and static site generation (SSG) through frameworks like Next.js and Gatsby. These tools enable developers to build fast-loading, SEO-friendly web applications with React while leveraging the benefits of server-side rendering or pre-rendering.",
+      },
+      {
+        title: "Faster To Build",
+        description:
+          "Because of its component-based approach and virtual DOM, React is a lot faster than other frameworks. This means that you won’t have to spend much time developing your app or website. Internally, React employs several unique options to minimize the frequency of costly DOM operations needed to refresh the UI. That is the reason why for many applications, using React will lead to a fast user interface without doing much work to specifically optimize for performance.",
+      },
+      {
+        title: "Trusted by giants",
+        description:
+          "React was created by Facebook, but it's also trusted by major brands like Airbnb and Netflix. This adoption by large companies speaks to React's reliability and effectiveness in building high-quality web applications.",
+      },
+      {
+        title: "React Community",
+        description:
+          "React has a community of millions of developers. On this page we’ve listed some React-related communities that you can be a part of; see the other pages in this section for additional online and in-person learning materials.",
+      },
+    ],
   },
   {
-  "title": "Enhance Accessibility",
-  "description": "Use semantic HTML tags to improve the accessibility and SEO of your application. Implement ARIA (Accessible Rich Internet Applications) attributes to make your components accessible to screen readers."
+    id: "6675968540886a58ddcb2c48",
+    image: "/blogs/occupation.jpg",
+    headingTitle: "Why choose the MERN stack?",
+    summery:
+      "Choosing the MERN stack (MongoDB, Express.js, React, Node.js) for web development offers several advantages that make it an attractive choice for developers and businesses alike. Here are the key reasons to choose the MERN stack",
+    points: [
+      {
+        title: "Single Language Across the Stack",
+        description:
+          "With JavaScript used for both client-side (React) and server-side (Node.js, Express.js) development, there's no need to switch contexts between different languages. This streamlines the development process and reduces complexity.",
+      },
+      {
+        title: "Component-Based Front-End with React",
+        description:
+          "React’s component-based architecture allows developers to create reusable UI components, leading to faster development and easier maintenance. The virtual DOM in React enhances application performance by minimizing direct updates to the real DOM, ensuring smoother and faster user interactions.",
+      },
+      {
+        title: "Efficient Back-End with Node.js and Express.js",
+        description:
+          "High Performance: Node.js’s non-blocking, event-driven architecture ensures high performance and scalability, making it well-suited for handling a large number of simultaneous connections, such as in real-time applications. Express.js, a minimal and flexible Node.js framework, provides powerful features for building APIs, web applications, and handling HTTP requests, simplifying server-side development.",
+      },
+      {
+        title: "Scalable and Flexible Database with MongoDB",
+        description:
+          "NoSQL Database: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format (BSON), allowing for dynamic schema design and easy scaling horizontally by distributing data across multiple servers.  MongoDB’s document-oriented storage aligns well with JavaScript objects in Node.js, providing a seamless and efficient way to interact with the database.",
+      },
+      {
+        title: "Intuitive Navigation",
+        description:
+          "Implement smooth and intuitive navigation using react-router-dom for managing routes. Use breadcrumbs to help users understand their current location within the application.",
+      },
+      {
+        title: "Full-Stack Development Capabilities",
+        description:
+          "End-to-End Development: The MERN stack covers the entire development process, from front-end user interfaces to back-end server logic and database management, enabling developers to build complete applications efficiently. With Express.js and Node.js, developers can easily create RESTful APIs to interact with MongoDB, facilitating the development of robust and scalable web services.",
+      },
+      {
+        title: "Strong Community and Ecosystem",
+        description:
+          "Open Source: All components of the MERN stack are open source, benefiting from continuous improvements, community contributions, and a vast array of resources available for learning and troubleshooting. A large and active community of developers means extensive documentation, tutorials, and forums for support, making it easier to find solutions and share knowledge.",
+      },
+      {
+        title: "Cost-Effective and Time-Efficient",
+        description:
+          "Rapid Development: The cohesive nature of the MERN stack and the reusability of React components enable rapid development cycles, reducing time to market. Using a single language and unified toolset can reduce development costs, as there is less need for diverse skill sets and specialized developers.",
+      },
+      {
+        title: "Real-Time Applications",
+        description:
+          "WebSockets and Real-Time Data: Node.js excels in real-time applications due to its asynchronous nature, making it ideal for building chat applications, online gaming, live feeds, and other real-time data applications.",
+      },
+      {
+        title: "Flexibility and Customization",
+        description:
+          "Modular Architecture: The MERN stack’s modular architecture allows developers to pick and choose libraries and tools that best fit their project requirements, offering flexibility in design and implementation.",
+      },
+    ],
   },
-  {
-  "title": "Optimize Performance",
-  "description": "Code Splitting: Use React's lazy loading and Suspense to load components only when they are needed, improving initial load time."
-  },
-  {
-  "title": "Intuitive Navigation",
-  "description": "Implement smooth and intuitive navigation using react-router-dom for managing routes. Use breadcrumbs to help users understand their current location within the application."
-  },
-  {
-  "title": "User Feedback",
-  "description": "User Testing: Conduct user testing sessions to gather feedback on the usability and design of your application.Analytics: Use tools like Google Analytics or Mixpanel to track user interactions and identify areas for improvement."
-  },
-  {
-  "title": "Code Quality",
-  "description": "Linting and Formatting: Use ESLint and Prettier to maintain consistent code quality and formatting. Component Structure: Keep your components small, focused, and reusable."
-  },
-  {
-  "title": "Regular Updates",
-  "description": "Library Updates: Regularly update your dependencies to leverage the latest features and improvements. Refactor Code: Continuously refactor your codebase to improve readability and maintainability."
-  }
-  ]
-  },
-  {
-  "id": "6675968540886a58ddcb2c47",
-  "image": "/blogs/react.jpg",
-  "headingTitle": "Why should we use React for the front-end?",
-  "summery": "🚀 React is a popular choice for front-end development for several reasons",
-  "points": [
-  {
-  "title": "Component-Based Architecture",
-  "description": "Create user interfaces from components. React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps."
-  },
-  {
-  "title": "Virtual DOM",
-  "description": "React uses a virtual DOM to efficiently update the UI. Instead of directly manipulating the DOM, React compares the virtual DOM with the actual DOM and only applies the necessary changes. This results in better performance, especially for complex UIs."
-  },
-  {
-  "title": "Rich Ecosystem",
-  "description": "React has a large and active ecosystem with plenty of third-party libraries and tools to choose from. Whether you need state management (Redux), routing (React Router), or UI components (Material-UI, Ant Design), you can find a library that fits your needs."
-  },
-  {
-  "title": "SEO Friendliness",
-  "description": "As React runs over a server and returns a virtual DOM request while browsing, it makes the web pages light for the search engine crawlers to crawl through the web pages and ultimately makes it easier to rank. The other web pages with Javascript codes with heavy applications make the search engine a little hard to crawl through and make it less supportive of SEO ranking."
-  },
-  {
-  "title": "Cross-Platform Development",
-  "description": "React Native, a framework for building native mobile applications using React, continues to gain traction. It allows developers to leverage their existing React skills to build mobile apps for iOS and Android platforms, maximizing code reuse and developer productivity."
-  },
-  {
-  "title": "Server-Side Rendering and Static Site Generation",
-  "description": "React's ecosystem has matured to offer powerful solutions for server-side rendering (SSR) and static site generation (SSG) through frameworks like Next.js and Gatsby. These tools enable developers to build fast-loading, SEO-friendly web applications with React while leveraging the benefits of server-side rendering or pre-rendering."
-  },
-  {
-  "title": "Faster To Build",
-  "description": "Because of its component-based approach and virtual DOM, React is a lot faster than other frameworks. This means that you won’t have to spend much time developing your app or website. Internally, React employs several unique options to minimize the frequency of costly DOM operations needed to refresh the UI. That is the reason why for many applications, using React will lead to a fast user interface without doing much work to specifically optimize for performance."
-  },
-  {
-  "title": "Trusted by giants",
-  "description": "React was created by Facebook, but it's also trusted by major brands like Airbnb and Netflix. This adoption by large companies speaks to React's reliability and effectiveness in building high-quality web applications."
-  },
-  {
-  "title": "React Community",
-  "description": "React has a community of millions of developers. On this page we’ve listed some React-related communities that you can be a part of; see the other pages in this section for additional online and in-person learning materials."
-  }
-  ]
-  },
-  {
-  "id": "6675968540886a58ddcb2c48",
-  "image": "/blogs/occupation.jpg",
-  "headingTitle": "Why choose the MERN stack?",
-  "summery": "Choosing the MERN stack (MongoDB, Express.js, React, Node.js) for web development offers several advantages that make it an attractive choice for developers and businesses alike. Here are the key reasons to choose the MERN stack",
-  "points": [
-  {
-  "title": "Single Language Across the Stack",
-  "description": "With JavaScript used for both client-side (React) and server-side (Node.js, Express.js) development, there's no need to switch contexts between different languages. This streamlines the development process and reduces complexity."
-  },
-  {
-  "title": "Component-Based Front-End with React",
-  "description": "React’s component-based architecture allows developers to create reusable UI components, leading to faster development and easier maintenance. The virtual DOM in React enhances application performance by minimizing direct updates to the real DOM, ensuring smoother and faster user interactions."
-  },
-  {
-  "title": "Efficient Back-End with Node.js and Express.js",
-  "description": "High Performance: Node.js’s non-blocking, event-driven architecture ensures high performance and scalability, making it well-suited for handling a large number of simultaneous connections, such as in real-time applications. Express.js, a minimal and flexible Node.js framework, provides powerful features for building APIs, web applications, and handling HTTP requests, simplifying server-side development."
-  },
-  {
-  "title": "Scalable and Flexible Database with MongoDB",
-  "description": "NoSQL Database: MongoDB is a NoSQL database that stores data in a flexible, JSON-like format (BSON), allowing for dynamic schema design and easy scaling horizontally by distributing data across multiple servers.  MongoDB’s document-oriented storage aligns well with JavaScript objects in Node.js, providing a seamless and efficient way to interact with the database."
-  },
-  {
-  "title": "Intuitive Navigation",
-  "description": "Implement smooth and intuitive navigation using react-router-dom for managing routes. Use breadcrumbs to help users understand their current location within the application."
-  },
-  {
-  "title": "Full-Stack Development Capabilities",
-  "description": "End-to-End Development: The MERN stack covers the entire development process, from front-end user interfaces to back-end server logic and database management, enabling developers to build complete applications efficiently. With Express.js and Node.js, developers can easily create RESTful APIs to interact with MongoDB, facilitating the development of robust and scalable web services."
-  },
-  {
-  "title": "Strong Community and Ecosystem",
-  "description": "Open Source: All components of the MERN stack are open source, benefiting from continuous improvements, community contributions, and a vast array of resources available for learning and troubleshooting. A large and active community of developers means extensive documentation, tutorials, and forums for support, making it easier to find solutions and share knowledge."
-  },
-  {
-  "title": "Cost-Effective and Time-Efficient",
-  "description": "Rapid Development: The cohesive nature of the MERN stack and the reusability of React components enable rapid development cycles, reducing time to market. Using a single language and unified toolset can reduce development costs, as there is less need for diverse skill sets and specialized developers."
-  },
-  {
-  "title": "Real-Time Applications",
-  "description": "WebSockets and Real-Time Data: Node.js excels in real-time applications due to its asynchronous nature, making it ideal for building chat applications, online gaming, live feeds, and other real-time data applications."
-  },
-  {
-  "title": "Flexibility and Customization",
-  "description": "Modular Architecture: The MERN stack’s modular architecture allows developers to pick and choose libraries and tools that best fit their project requirements, offering flexibility in design and implementation."
-  }
-  ]
-  }
-  ]
- 
+];
