@@ -1,5 +1,23 @@
 export const projects = [
   {
+    id: "66e3fdac8673330ere22fgfg",
+    name: "NextIn",
+    tags: "MERN",
+    description: "Home rental stays, effortlessly and quickly.",
+    liveLink: "https://nextin-app.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/nextin-mern-client",
+    image: "/projects/nextin.png",
+  },
+  {
+    id: "66e3fdac8673330er4389o",
+    name: "Gadget Plus",
+    tags: "MERN",
+    description: "A gadget-selling e-commerce application.",
+    liveLink: "https://gadget-plus-ecom.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/gadget-plus-client",
+    image: "/projects/gadget-plus.png",
+  },
+  {
     id: "66e3fdac8673330bf922282e",
     name: "Brain Eye",
     tags: "React.js",
