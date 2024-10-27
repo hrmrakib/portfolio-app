@@ -2,6 +2,7 @@ const handleDownload = () => {
   const pdfUrl = "Rakibul_Alam_Frontend_Developer.pdf";
 
   const link = document.createElement("a");
+
   link.href = pdfUrl;
   link.setAttribute("download", "Rakibul_Alam_Frontend_Developer");
 
