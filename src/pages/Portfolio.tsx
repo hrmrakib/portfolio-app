@@ -9,7 +9,7 @@ import { BackgroundGradient } from "../components/ui/background-gradient";
 import Image from "next/image";
 
 const Portfolio = () => {
-  const [projectLength, setProjectLength] = useState<number>(3);
+  const [projectLength, setProjectLength] = useState<number>(6);
   const [selectedTag, setSelectedTag] = useState<string>("");
  
   const filteredProjects = selectedTag ? projects.filter((pro)=> pro.tags.includes(selectedTag)) : projects;
