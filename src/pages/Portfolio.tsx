@@ -44,7 +44,7 @@ const Portfolio = () => {
       <div className='mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-12'>
         {filteredProjects.slice(0, projectLength).map((project) => (
           <div key={project?.id}>
-            <BackgroundGradient className='relative rounded-[22px] w-full min-h-[440px] p-4 sm:p-10 bg-white dark:bg-zinc-900'>
+            <BackgroundGradient className='relative rounded-[22px] w-full min-h-[440px] p-4 sm:p-10 bg-zinc-900'>
               <Image
                 src={project?.image}
                 alt={project?.name}

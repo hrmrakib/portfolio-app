@@ -175,6 +175,11 @@ export const technologies = [
     image: "/tech/typescript.png",
   },
   {
+    id: 44,
+    name: "Redux",
+    image: "/tech/redux.png",
+  },
+  {
     id: 7,
     name: "Firebase",
     image: "/tech/firebase.webp",
