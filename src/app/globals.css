@@ -31,7 +31,7 @@
   @apply font-medium text-white whitespace-pre;
 }
 .dashboard-style {
-  @apply p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 text-white dark:bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full;
+  @apply p-2 md:p-10 rounded-tl-2xl border border-neutral-700 text-white bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full;
 }
 .content-box {
   @apply h-20 w-full rounded-lg bg-neutral-800 animate-pulse;
