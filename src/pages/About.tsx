@@ -1,8 +1,14 @@
 import { FlipWords } from "../components/ui/flip-words";
-import Image from 'next/image';
+import Image from "next/image";
 
 const About = () => {
-  const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
+  const words = [
+    "Frontend Developer",
+    "React.js Developer",
+    "Next.js Developer",
+    "MERN Stack Developer",
+    "Full-Stack Developer",
+  ];
 
   return (
     <section id='about' className='my-12 lg:my-32'>
@@ -17,7 +23,13 @@ const About = () => {
       <div className='grid gap-20 lg:gap-36 lg:grid-cols-2 my-16'>
         <div className='grid gap-20'>
           <div>
-            <Image className='w-28 mb-8' width={200} height={200} src='/about/ambition.png' alt='ambition' />
+            <Image
+              className='w-28 mb-8'
+              width={200}
+              height={200}
+              src='/about/ambition.png'
+              alt='ambition'
+            />
             <h2 className='text-3xl font-semibold text-white mb-3'>
               My Ambition
             </h2>
@@ -29,7 +41,13 @@ const About = () => {
             </p>
           </div>
           <div>
-            <Image className='w-28 mb-8' width={200} height={200} src='/about/target.png' alt='target' />
+            <Image
+              className='w-28 mb-8'
+              width={200}
+              height={200}
+              src='/about/target.png'
+              alt='target'
+            />
             <h2 className='text-3xl font-semibold text-white mb-3'>
               My Purpose
             </h2>
@@ -46,18 +64,16 @@ const About = () => {
           <div className='p-8 text-white'>
             <h2 className='text-xl md:text-4xl mb-1'>Md Rakibul Alam</h2>
             <h3 className='text-sky-500 text-xl mb-2 font-semibold'>
-              <FlipWords words={words} className="text-sky-500" /> <br /> 
-            </h3> 
-            <p className='text-pink-300'>
-              <i className='fa-solid fa-location-dot mr-2'></i> Gazipur,
-              Bangladesh
-            </p>
+              <FlipWords words={words} className='text-sky-500' /> <br />
+            </h3>
+            <p className='text-pink-300'>Gazipur, Bangladesh</p>
           </div>
 
           <div className='w-20 md:w-36 absolute bottom-2 right-2  rounded-full shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>
             <Image
               className='w-20 md:w-36 profile'
-              width={200} height={200}
+              width={200}
+              height={200}
               src='/about/rakib.png'
               alt='Rakibul'
             />
