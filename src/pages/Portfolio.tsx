@@ -11,13 +11,15 @@ import Image from "next/image";
 const Portfolio = () => {
   const [projectLength, setProjectLength] = useState<number>(6);
   const [selectedTag, setSelectedTag] = useState<string>("");
- 
-  const filteredProjects = selectedTag ? projects.filter((pro)=> pro.tags.includes(selectedTag)) : projects;
 
-  const handleTagClick = (tag:string)=> {
-    setSelectedTag(tag)
-    setProjectLength(3)
-  }
+  const filteredProjects = selectedTag
+    ? projects.filter((pro) => pro.tags.includes(selectedTag))
+    : projects;
+
+  const handleTagClick = (tag: string) => {
+    setSelectedTag(tag);
+    setProjectLength(3);
+  };
 
   return (
     <section id='portfolio' className='my-12 lg:my-32'>
@@ -29,16 +31,37 @@ const Portfolio = () => {
           Elevate your brand to new heights with our portfolio expertise
         </h2>
       </div>
-      
 
       <div className='my-14'>
-      <ul className='flex items-center flex-wrap justify-center gap-3 *:bg-white *:px-4 *:py-2 *:text-gray-800 *:rounded-lg'>
-        <li className='cursor-pointer' onClick={()=> handleTagClick('HTML, CSS')}>HTML, CSS</li>
-        <li className='cursor-pointer' onClick={()=> handleTagClick('React.js')}>React.js</li>
-        <li className='cursor-pointer' onClick={()=> handleTagClick('Next.js')}>Next.js</li>
-        <li className='cursor-pointer' onClick={()=> handleTagClick('MERN')}>MERN</li>
-        <li className='!bg-blue-600 !text-white cursor-pointer' onClick={()=> handleTagClick('')}>All</li>
-      </ul>
+        <ul className='flex items-center flex-wrap justify-center gap-3 *:bg-white *:px-4 *:py-2 *:text-gray-800 *:rounded-lg'>
+          <li
+            className='cursor-pointer'
+            onClick={() => handleTagClick("HTML, CSS")}
+          >
+            HTML, CSS
+          </li>
+          <li
+            className='cursor-pointer'
+            onClick={() => handleTagClick("React.js")}
+          >
+            React.js
+          </li>
+          <li
+            className='cursor-pointer'
+            onClick={() => handleTagClick("Next.js")}
+          >
+            Next.js
+          </li>
+          <li className='cursor-pointer' onClick={() => handleTagClick("MERN")}>
+            MERN
+          </li>
+          <li
+            className='!bg-blue-600 !text-white cursor-pointer'
+            onClick={() => handleTagClick("")}
+          >
+            All
+          </li>
+        </ul>
       </div>
 
       <div className='mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-12'>
@@ -52,16 +75,16 @@ const Portfolio = () => {
                 width={440}
                 className='object-cover h-[220px] rounded-md'
               />
-              <p className='text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>
+              <p className='text-lg sm:text-xl mt-4 mb-2 text-neutral-200'>
                 {project?.name}
               </p>
 
-              <p className='text-base text-neutral-600 dark:text-neutral-400'>
+              <p className='text-base text-neutral-400'>
                 {project?.description}
               </p>
-              <div className='max-w-max rounded-full pl-2 pr-1 py-1 text-white flex justify-end items-center space-x-1 bg-black mt-4 text-xs font-bold dark:bg-zinc-800'>
+              <div className='max-w-max rounded-full pl-2 pr-1 py-1 text-white flex justify-end items-center space-x-1 mt-4 text-xs font-bold bg-zinc-800'>
                 <span className='bg-zinc-700 rounded-full text-[0.6rem] px-2 py-0 text-white'>
-                {project?.tags}
+                  {project?.tags}
                 </span>
               </div>
 
@@ -101,7 +124,7 @@ const Portfolio = () => {
       {filteredProjects.length >= projectLength ? (
         <div className='mt-10 flex justify-center items-center'>
           <button
-            onClick={()=> setProjectLength((prev) => prev + 3)}
+            onClick={() => setProjectLength((prev) => prev + 3)}
             type='button'
             className='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'
           >
