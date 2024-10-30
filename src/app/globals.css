@@ -4,10 +4,10 @@
 
 /* Add to your Tailwind config file for better organization */
 .icon-style {
-  @apply text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0;
+  @apply text-neutral-200 h-5 w-5 flex-shrink-0;
 }
 .container-style {
-  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-[#09101A] dark:bg-neutral-800 w-full mx-auto border border-neutral-200 dark:border-neutral-700 overflow-hidden h-[60vh];
+  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-neutral-800 w-full mx-auto border border-neutral-700 overflow-hidden h-[60vh];
 }
 .sidebar-body-style {
   @apply justify-between gap-10;
@@ -25,7 +25,7 @@
   @apply font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20;
 }
 .logo-box {
-  @apply h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0;
+  @apply h-5 w-6 bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0;
 }
 .logo-text {
   @apply font-medium text-white whitespace-pre;
@@ -34,7 +34,7 @@
   @apply p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 text-white dark:bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full;
 }
 .content-box {
-  @apply h-20 w-full rounded-lg bg-gray-100 dark:bg-neutral-800 animate-pulse;
+  @apply h-20 w-full rounded-lg bg-neutral-800 animate-pulse;
 }
 /* hero-bg */
 .hero_area {
