@@ -2,7 +2,7 @@ import { MdCloudDownload } from "react-icons/md";
 import handleDownload from "../lib/handleDownload";
 import { useState } from "react";
 import { technologies, education } from "@/constants";
-import FloatingDockDemo from "@/components/SocialLink"
+import FloatingDockDemo from "@/components/SocialLink";
 import Image from "next/image";
 
 const Skill = () => {
@@ -23,12 +23,9 @@ const Skill = () => {
           Bringing your vision to life with precision and passion
         </h2>
       </div>
-      <div
-        id='experience'
-        className='flex flex-col md:flex-row gap-5 justify-center my-12'
-      >
+      <div className='flex flex-col md:flex-row gap-5 justify-center my-12'>
         <button
-            onClick={handleDownload}
+          onClick={handleDownload}
           type='button'
           className='text-white flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center me-2 mb-2'
         >
@@ -73,7 +70,7 @@ const Skill = () => {
 
       {/* <!-- education content --> */}
 
-    {tract === "education" && (
+      {tract === "education" && (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
           {education?.map((edu) => (
             <div key={edu.id} className='border border-gray-600 p-5 rounded-lg'>
@@ -119,8 +116,8 @@ const Skill = () => {
                 Md Rakibul Alam
               </h2>
               <p className='text-gray-300 mb-4'>
-                Hello! I&apos;m Rakibul, a passionate web developer with a love for
-                creating beautiful and functional web applications. I have
+                Hello! I&apos;m Rakibul, a passionate web developer with a love
+                for creating beautiful and functional web applications. I have
                 developed a strong foundation in modern web technologies. I
                 enjoy working on innovative projects and constantly strive to
                 improve my skills and learn new technologies.
@@ -130,7 +127,6 @@ const Skill = () => {
                 to open-source projects, and enjoy outdoor activities.
               </p>
               <FloatingDockDemo />
-              
             </div>
           </div>
         </div>
@@ -144,7 +140,10 @@ const Skill = () => {
           </h3>
           <div className='flex flex-wrap justify-center gap-5 my-8'>
             {technologies.map((tech) => (
-              <div key={tech.id} className='flex flex-col justify-center parent p-2'>
+              <div
+                key={tech.id}
+                className='flex flex-col justify-center parent p-2'
+              >
                 <div className='size-20 md:size-24 rounded-full bg-[#2F3046] mb-2 child'>
                   <Image
                     className='w-full p-4 rounded-3xl'
@@ -155,7 +154,7 @@ const Skill = () => {
                   />
                 </div>
                 <span className='text-center text-white'>{tech?.name}</span>
-              </div> 
+              </div>
             ))}
           </div>
         </div>

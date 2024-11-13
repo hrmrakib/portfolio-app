@@ -1,4 +1,4 @@
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
 
 import HeroContent from "./HeroContent";
 import About from "../pages/About";
@@ -8,10 +8,10 @@ import Skill from "@/pages/Skills";
 // import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
 import Footer from "./Footer";
+import Experience from "@/pages/Experience";
 
-const Portfolio = dynamic(() => import('@/pages/Portfolio'));
-const Blog = dynamic(() => import('@/pages/Blog'));
-
+const Portfolio = dynamic(() => import("@/pages/Portfolio"));
+const Blog = dynamic(() => import("@/pages/Blog"));
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
         <About />
         <Service />
         <Skill />
+        <Experience />
         <Portfolio />
         <Blog />
         <Contact />

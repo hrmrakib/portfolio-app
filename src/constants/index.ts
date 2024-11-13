@@ -1,3 +1,20 @@
+export const experiences = [
+  {
+    title: "Frontend Developer",
+    company: "AetherZan IT",
+    period: "Jan, 2024 - Present",
+    description:
+      "Key Responsibilities: Collaborate remotely with cross-functional teams to plan and develop responsive web applications. Build responsive, user-friendly interfaces using React.js, TailwindCSS, HTML, CSS, and JavaScript. Participate in regular meetings to discuss project goals, timelines, and technical strategies. Maintain clear and consistent communication for planning, updates, and issue resolution.",
+  },
+  {
+    title: "Web Developer - Intern",
+    company: "CodSoft",
+    period: "Nov, 2024 - Dec, 2024",
+    description:
+      "Key Responsibilities: Independently developed and completed three full-stack projects, managing frontend and backend tasks, implementing responsive design, optimizing functionality, and integrating APIs. Adapted quickly to solve challenges, from debugging to performance optimization, demonstrating strong self-motivation and hands-on learning in all aspects of full-stack development.",
+  },
+];
+
 export const projects = [
   {
     id: "66e3fdac8673330ere22fgfg",
