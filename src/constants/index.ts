@@ -44,6 +44,15 @@ export const projects = [
     image: "/projects/brain-eye.png",
   },
   {
+    id: "66e3fdac86733uyuffuf82e",
+    name: "Crypto Coin",
+    tags: "React.js",
+    description: "Trusted and Secure Digital Currency Exchange",
+    liveLink: "https://crypto-coin1.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/crypto-coin",
+    image: "/projects/crypto-coin.png",
+  },
+  {
     id: "666e361d5f2cfe66ba8e4b7c",
     name: "FoodTable",
     tags: "MERN",
