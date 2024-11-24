@@ -9,7 +9,7 @@ import {
   IconCertificate,
   IconBriefcase,
   IconBallpen,
-  IconAddressBook
+  IconAddressBook,
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -44,8 +44,8 @@ export function SidebarDemo() {
       icon: <IconCertificate className='icon-style' />,
     },
     {
-      label: "Portfolio",
-      href: "#portfolio",
+      label: "Projects",
+      href: "#projects",
       icon: <IconBriefcase className='icon-style' />,
     },
     {
@@ -74,7 +74,6 @@ export function SidebarDemo() {
               ))}
             </div>
           </div>
-         
         </SidebarBody>
       </Sidebar>
       <App />

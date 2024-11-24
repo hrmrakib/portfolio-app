@@ -22,10 +22,10 @@ const Portfolio = () => {
   };
 
   return (
-    <section id='portfolio' className='my-12 lg:my-32'>
+    <section id='projects' className='my-12 lg:my-32'>
       <div>
         <h3 className='text-[#55e6a5] text-xl font-medium mb-3'>
-          My Recent Portfolio
+          My Recent Projects
         </h3>
         <h2 className='text-3xl lg:text-5xl font-semibold text-white leading-normal'>
           Elevate your brand to new heights with our portfolio expertise

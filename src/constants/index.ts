@@ -152,6 +152,15 @@ export const projects = [
     githubLink: "https://github.com/hrmrakib/health-care-landing-page",
     image: "/projects/health-care.png",
   },
+  {
+    id: "66e3fcdfkdf30bf922rj20",
+    name: "Neno Restaurant",
+    tags: "React.js",
+    description: "Taste the authentic Saudi cuisine",
+    liveLink: "https://neno-restaurant.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/neno-restaurant",
+    image: "/projects/neno-restaurant.png",
+  },
 ];
 
 export const services = [
