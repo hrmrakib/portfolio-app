@@ -9,7 +9,7 @@ export const experiences = [
   {
     title: "Frontend Developer",
     company: "AetherZan IT",
-    period: "Jan, 2024 - Nov, 2024",
+    period: "Jun, 2024 - Nov, 2024",
     description:
       "Key Responsibilities: Collaborate remotely with cross-functional teams to plan and develop responsive web applications. Build responsive, user-friendly interfaces using React.js, TailwindCSS, HTML, CSS, and JavaScript. Participate in regular meetings to discuss project goals, timelines, and technical strategies. Maintain clear and consistent communication for planning, updates, and issue resolution.",
   },
@@ -70,6 +70,15 @@ export const projects = [
     liveLink: "https://tourism-app-looming.web.app/",
     githubLink: "https://github.com/hrmrakib/tourism-app-looming-client",
     image: "/projects/looming.png",
+  },
+  {
+    id: "666e3a567e675gff590",
+    name: "Topsy",
+    tags: "React.js",
+    description: "It's a property management website using React.js.",
+    liveLink: "https://promd.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/property-management-dashboard",
+    image: "/projects/topsy.png",
   },
   {
     id: "666e3d357e680bbc1308f591",
