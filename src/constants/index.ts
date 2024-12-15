@@ -1,17 +1,10 @@
 export const experiences = [
   {
-    title: "Web Developer - Intern",
-    company: "CodSoft",
-    period: "Nov, 2024 - Present",
+    title: "Web Developer – MERN & Next.js Specialist",
+    company: "Fastoon Solutions",
+    period: "Jun, 2024 - Present",
     description:
-      "Key Responsibilities: Independently developed and completed three full-stack projects, managing frontend and backend tasks, implementing responsive design, optimizing functionality, and integrating APIs. Adapted quickly to solve challenges, from debugging to performance optimization, demonstrating strong self-motivation and hands-on learning in all aspects of full-stack development.",
-  },
-  {
-    title: "Frontend Developer",
-    company: "AetherZan IT",
-    period: "Jun, 2024 - Nov, 2024",
-    description:
-      "Key Responsibilities: Collaborate remotely with cross-functional teams to plan and develop responsive web applications. Build responsive, user-friendly interfaces using React.js, TailwindCSS, HTML, CSS, and JavaScript. Participate in regular meetings to discuss project goals, timelines, and technical strategies. Maintain clear and consistent communication for planning, updates, and issue resolution.",
+      "I developed dynamic web applications using the MERN stack, creating scalable backend services with Node.js and Express and responsive frontends with React.js and Next.js. I integrated third-party APIs, implemented SEO strategies with SSR, and optimized performance for seamless user experiences. I managed databases like MongoDB and PostgreSQL while deploying applications with Docker and cloud platforms. Additionally, I ensured functionality through unit, integration, and end-to-end testing.",
   },
 ];
 
