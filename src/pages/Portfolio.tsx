@@ -124,7 +124,7 @@ const Portfolio = () => {
       {filteredProjects.length >= projectLength ? (
         <div className='mt-10 flex justify-center items-center'>
           <button
-            onClick={() => setProjectLength((prev) => prev + 3)}
+            onClick={() => setProjectLength((prev) => prev + 6)}
             type='button'
             className='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2'
           >

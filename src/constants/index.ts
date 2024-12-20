@@ -154,6 +154,24 @@ export const projects = [
     githubLink: "https://github.com/hrmrakib/neno-restaurant",
     image: "/projects/neno-restaurant.png",
   },
+  {
+    id: "66e3fcdfkfjfddfj20",
+    name: "Age Calculator",
+    tags: "React.js",
+    description: "You are 24 years, 7 months, 18 days old. Young Star",
+    liveLink: "https://amar-age.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/age-calculator",
+    image: "/projects/amar-age.png",
+  },
+  {
+    id: "66e3fcdfkdireuoiu3o52",
+    name: "Quiz App",
+    tags: "React.js",
+    description: "HTML, CSS, JavaScript & React.js",
+    liveLink: "https://qwb.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/quiz-app",
+    image: "/projects/quiz-app.png",
+  },
 ];
 
 export const services = [
