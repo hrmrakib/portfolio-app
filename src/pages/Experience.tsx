@@ -52,7 +52,7 @@ export default function ExperienceSection() {
           <div className='absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-200 hidden md:block'></div>
 
           {experiences.map((exp, index) => (
-            <div
+            <div 
               key={index}
               className={`mb-8 flex flex-col md:flex-row justify-between items-center w-full ${
                 index % 2 === 0 ? "md:flex-row-reverse" : ""

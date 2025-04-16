@@ -1,10 +1,17 @@
 export const experiences = [
   {
-    title: "Web Developer – MERN & Next.js Specialist",
+    title: "Frontend Developer",
     company: "Fastoon Solutions",
-    period: "Jun, 2024 - Present",
+    period: "Jun, 2024 - Dec, 2024",
     description:
-      "I developed dynamic web applications using the MERN stack, creating scalable backend services with Node.js and Express and responsive frontends with React.js and Next.js. I integrated third-party APIs, implemented SEO strategies with SSR, and optimized performance for seamless user experiences. I managed databases like MongoDB and PostgreSQL while deploying applications with Docker and cloud platforms. Additionally, I ensured functionality through unit, integration, and end-to-end testing.",
+      "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
+  },
+  {
+    title: "Frontend Developer",
+    company: "JVAI",
+    period: "Jan, 2025 - Present",
+    description:
+      "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
   },
 ];
 
