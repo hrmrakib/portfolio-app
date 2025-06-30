@@ -3,10 +3,9 @@ import Image from "next/image";
 
 const About = () => {
   const words = [
+    "Problem Solver",
     "Frontend Developer",
-    "React.js Developer",
-    "Next.js Developer",
-    "MERN Stack Developer",
+    "Backend Developer",
     "Full-Stack Developer",
   ];
 
@@ -14,9 +13,9 @@ const About = () => {
     <section id='about' className='my-12 lg:my-32'>
       <div>
         <h3 className='text-[#55e6a5] text-xl font-medium mb-3'>About Me</h3>
-        <h2 className='text-3xl lg:text-5xl font-semibold text-white leading-normal'>
-          Crafting stories through design and <br />
-          innovation
+        <h2 className='lg:max-w-[70%] text-2xl lg:text-5xl font-semibold text-white leading-normal'>
+          Transforming ideas into impactful digital experiences through design
+          and innovation.
         </h2>
       </div>
 
@@ -34,10 +33,11 @@ const About = () => {
               My Ambition
             </h2>
             <p className='my-p'>
-              Passionate web developer dedicated to crafting visually amazing
-              and user-friendly websites. Excited to collaborate with dynamic
-              teams, leveraging cutting-edge technologies to bring innovative
-              digital solutions to life.
+              As a passionate software developer, I’m committed to building
+              visually stunning and highly user-centric websites. I thrive in
+              collaborative, fast-paced environments and aim to leverage modern
+              technologies to deliver innovative and impactful digital
+              solutions.
             </p>
           </div>
           <div>
@@ -66,7 +66,7 @@ const About = () => {
             <h3 className='text-sky-500 text-xl mb-2 font-semibold'>
               <FlipWords words={words} className='text-sky-500' /> <br />
             </h3>
-            <p className='text-pink-300'>Gazipur, Bangladesh</p>
+            <p className='text-pink-300'>Dhaka, Bangladesh</p>
           </div>
 
           <div className='w-20 md:w-36 absolute bottom-2 right-2  rounded-full shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>

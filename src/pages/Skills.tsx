@@ -20,7 +20,7 @@ const Skill = () => {
       <div className='text-center'>
         <h3 className='text-[#55e6a5] text-2xl mb-3 tracking-wide'>MY Skill</h3>
         <h2 className='text-3xl lg:text-5xl font-extrabold text-white leading-snug max-w-[790px] mx-auto'>
-          Bringing your vision to life with precision and passion
+          Building impactful solutions through code, design, and innovation.
         </h2>
       </div>
       <div className='flex flex-col md:flex-row gap-5 justify-center my-12'>

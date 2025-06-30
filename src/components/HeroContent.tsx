@@ -5,12 +5,17 @@ import Image from "next/image";
 import { Meteors } from "../components/ui/meteors";
 
 const HeroContent = () => {
-  const words = ["Frontend Developer", "React.js Developer", "Next.js Developer", "MERN Stack Developer", "Full-Stack Developer"];
+  const words = [
+    "Problem Solver",
+    "Frontend Developer",
+    "Backend Developer",
+    "Full-Stack Developer",
+  ];
 
-  return ( 
+  return (
     <>
       <section
-        id='home'  
+        id='home'
         className='hero_area bg-[#02050A] text-[#a2a2a2] h-screen'
       >
         <div className='layer grid grid-cols-1 lg:grid-cols-3 justify-center items-center p-4 lg:p-20'>
@@ -20,16 +25,16 @@ const HeroContent = () => {
               <br />
               CREATIVE
             </h2>
-           
-      
+
             <h2 className='font-bold text-xl md:text-3xl lg:text-4xl mb-5 lg:mb-8'>
-              <FlipWords words={words} className="text-green-500" /> <br /> 
+              <FlipWords words={words} className='text-green-500' /> <br />
             </h2>
             <p className='my-p max-w-lg leading-6 mb-6 text-gray-100'>
-              With a fervent dedication to modern web technologies, I
-              aspire to utilize my technical prowess and leadership acumen to
-              propel success in dynamic tech projects, seeking an environment to
-              apply my expertise and further excel in the Web Development field.
+              Driven by a passion for modern web technologies, I bring a blend
+              of technical expertise and leadership skills to deliver impactful
+              digital solutions. I’m committed to contributing to innovative
+              projects and continuously growing in the ever-evolving field of
+              software development.
             </p>
             <button
               onClick={handleDownload}
@@ -41,12 +46,18 @@ const HeroContent = () => {
           </div>
 
           <div className='w-52 justify-self-center hidden md:flex'>
-            <Image className='w-full rotate' width={300} height={300} src='/react.png' alt='' />
+            <Image
+              className='w-full rotate'
+              width={300}
+              height={300}
+              src='/react.png'
+              alt=''
+            />
           </div>
         </div>
-        
-        <div className="hidden md:flex">
-          <Meteors number={25} className="hidden md:flex"/>
+
+        <div className='hidden md:flex'>
+          <Meteors number={25} className='hidden md:flex' />
         </div>
       </section>
     </>

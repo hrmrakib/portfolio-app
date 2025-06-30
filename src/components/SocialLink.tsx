@@ -28,7 +28,7 @@ export default function FloatingDockDemo() {
           icon: (
             <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "https://x.com/hrmrakib1",
+          href: "https://x.com/hrm_rakib",
         },
         {
           title: "Facebook",

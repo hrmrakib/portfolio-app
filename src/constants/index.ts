@@ -17,6 +17,24 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "66e3fdafdgdfc8673330ere22fgfg",
+    name: "Console Locker",
+    tags: "MERN",
+    description: "Console locker (Client Project) on Join Venture AI",
+    liveLink: "https://consolelocker.it/",
+    githubLink: "https://github.com/hrmrakib/console-lockers",
+    image: "/projects/console-locker.png",
+  },
+  {
+    id: "66e3fdafdgdfc8673330ere22fgfg",
+    name: "Orange Tech Consultants",
+    tags: "Next.js and Gemini AI",
+    description: "Orange Tech Consultants (Client Project) on Join Venture AI",
+    liveLink: "https://consolelocker.it/",
+    githubLink: "https://github.com/hrmrakib/console-lockers",
+    image: "/projects/orangetechconsultants.png",
+  },
+  {
     id: "66e3fdac8673330ere22fgfg",
     name: "NextIn",
     tags: "MERN",
@@ -191,10 +209,10 @@ export const services = [
   },
   {
     id: 2,
-    title: "React Application Development",
+    title: "Backend Development",
     description:
-      "Crafting dynamic, high-performance React applications with clean code, intuitive design, and seamless user experiences for diverse audiences.",
-    img: "/services/react-app.jpg",
+      "Crafting dynamic, high-performance backend applications with clean code, intuitive design, and seamless user experiences for diverse audiences.",
+    img: "/services/backend.jpg",
   },
   {
     id: 3,
@@ -221,63 +239,79 @@ export const technologies = [
     name: "JavaScript",
     image: "/tech/javascript.png",
   },
+
   {
     id: 4,
-    name: "React.js",
-    image: "/tech/reactjs.png",
-  },
-  {
-    id: 5,
-    name: "Next.js",
-    image: "/tech/nextjs.png",
-  },
-  {
-    id: 6,
     name: "TypeScript",
     image: "/tech/typescript.png",
   },
   {
-    id: 44,
+    id: 5,
+    name: "C++",
+    image: "/tech/cpp.png",
+  },
+  {
+    id: 6,
+    name: "DSA",
+    image: "/tech/dsa.png",
+  },
+  {
+    id: 7,
+    name: "React.js",
+    image: "/tech/reactjs.png",
+  },
+  {
+    id: 8,
+    name: "Next.js",
+    image: "/tech/nextjs.png",
+  },
+  {
+    id: 9,
     name: "Redux",
     image: "/tech/redux.png",
   },
   {
-    id: 7,
+    id: 10,
     name: "Firebase",
     image: "/tech/firebase.webp",
   },
   {
-    id: 8,
+    id: 11,
     name: "Git & GitHub",
     image: "/tech/git.png",
   },
   {
-    id: 9,
+    id: 12,
     name: "Figma",
     image: "/tech/figma.png",
   },
   {
-    id: 10,
+    id: 13,
     name: "Tailwind CSS",
     image: "/tech/tailwind.png",
   },
   {
-    id: 11,
+    id: 14,
     name: "NodeJS",
     image: "/tech/nodejs.png",
   },
   {
-    id: 12,
+    id: 15,
     name: "ExpressJS",
     image: "/tech/express.png",
   },
   {
-    id: 13,
+    id: 25,
+    name: "PostgreSQL",
+    image: "/tech/postgresql.png",
+  },
+  {
+    id: 16,
     name: "MongoDB",
     image: "/tech/mongodb.png",
   },
   {
-    id: 14,
+    id: 17,
     name: "Mongoose",
     image: "/tech/mongoose.png",
   },
