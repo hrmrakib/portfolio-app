@@ -34,25 +34,28 @@ const Portfolio = () => {
 
       <div className='my-14'>
         <ul className='flex items-center flex-wrap justify-center gap-3 *:bg-white *:px-4 *:py-2 *:text-gray-800 *:rounded-lg'>
-          {/* <li
-            className='cursor-pointer'
-            onClick={() => handleTagClick("HTML, CSS")}
-          >
-            HTML, CSS
-          </li> */}
           <li
-            className='cursor-pointer'
+            className={`cursor-pointer ${
+              selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
+            }`}
             onClick={() => handleTagClick("React.js")}
           >
             React.js
           </li>
           <li
-            className='cursor-pointer'
+            className={`cursor-pointer ${
+              selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
+            }`}
             onClick={() => handleTagClick("Next.js")}
           >
             Next.js
           </li>
-          <li className='cursor-pointer' onClick={() => handleTagClick("MERN")}>
+          <li
+            className={`cursor-pointer ${
+              selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
+            }`}
+            onClick={() => handleTagClick("MERN")}
+          >
             MERN
           </li>
           <li
