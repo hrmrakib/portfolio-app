@@ -8,7 +8,7 @@ export const experiences = [
   },
   {
     title: "Frontend Developer",
-    company: "JVAI",
+    company: "Join Venture AI",
     period: "Jan, 2025 - Present",
     description:
       "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
@@ -24,6 +24,15 @@ export const projects = [
     liveLink: "https://consolelocker.it/",
     githubLink: "https://github.com/hrmrakib/console-lockers",
     image: "/projects/console-locker.png",
+  },
+  {
+    id: "66e3fda43jkf73330ere22fgfg",
+    name: "Campus Couch",
+    tags: "MERN",
+    description: "Orange Tech Consultants (Client Project) on Join Venture AI",
+    liveLink: "https://www.campuscouch.com/",
+    githubLink: "https://github.com/hrmrakib/couch-frontend",
+    image: "/projects/campus-couch.png",
   },
   {
     id: "66e3fdafdgdfc8673330ere22fgfg",
@@ -123,7 +132,7 @@ export const projects = [
   {
     id: "66a383d6f808f37e00aa21e0",
     name: "A Social",
-    tags: "HTML, CSS",
+    tags: "React.js",
     description:
       "It's a simple social media type website design by HTML, CSS, and JavaScript!",
     liveLink: "https://a-social.vercel.app/",
@@ -153,7 +162,7 @@ export const projects = [
   {
     id: "66e3fcbkf3430bf9222jf3k",
     name: "Web Index",
-    tags: "HTML, CSS",
+    tags: "React.js",
     description:
       "HTML, CSS & JS website where users can inform web index events!",
     liveLink: "https://web-index-one.vercel.app/",
@@ -163,7 +172,7 @@ export const projects = [
   {
     id: "66e3fcbkf3430bf922rj20",
     name: "Doctor Lab",
-    tags: "HTML, CSS",
+    tags: "React.js",
     description:
       "HTML, CSS & JS website where users can inform medical events!",
     liveLink: "https://health-care-landing-page-azure.vercel.app/",
