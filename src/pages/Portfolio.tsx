@@ -44,7 +44,7 @@ const Portfolio = () => {
           </li>
           <li
             className={`cursor-pointer ${
-              selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
+              selectedTag === "Next.js" ? "!bg-blue-600 !text-white" : ""
             }`}
             onClick={() => handleTagClick("Next.js")}
           >
@@ -52,14 +52,16 @@ const Portfolio = () => {
           </li>
           <li
             className={`cursor-pointer ${
-              selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
+              selectedTag === "MERN" ? "!bg-blue-600 !text-white" : ""
             }`}
             onClick={() => handleTagClick("MERN")}
           >
             MERN
           </li>
           <li
-            className='!bg-blue-600 !text-white cursor-pointer'
+            className={`${
+              selectedTag === "" ? "!bg-blue-600 !text-white" : ""
+            } cursor-pointer`}
             onClick={() => handleTagClick("")}
           >
             All
