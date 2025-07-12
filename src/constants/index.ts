@@ -39,7 +39,7 @@ export const projects = [
     name: "Orange Tech Consultants",
     tags: "Next.js and Gemini AI",
     description: "Orange Tech Consultants (Client Project) on Join Venture AI",
-    liveLink: "https://consolelocker.it/",
+    liveLink: "https://www.orangetechconsultants.com/",
     githubLink: "https://github.com/hrmrakib/console-lockers",
     image: "/projects/orangetechconsultants.png",
   },
