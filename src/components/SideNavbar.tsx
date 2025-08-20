@@ -89,7 +89,7 @@ export const Logo = () => (
       animate={{ opacity: 1 }}
       className='logo-text'
     >
-      Great Dev
+      {" "}
     </motion.span>
   </Link>
 );

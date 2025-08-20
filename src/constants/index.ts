@@ -1,21 +1,30 @@
 export const experiences = [
   {
     title: "Frontend Developer",
-    company: "Fastoon Solutions",
-    period: "Jun, 2024 - Dec, 2024",
+    company: "Join Venture AI",
+    period: "Jan, 2025 - Present",
     description:
       "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
   },
   {
     title: "Frontend Developer",
-    company: "Join Venture AI",
-    period: "Jan, 2025 - Present",
+    company: "Fastoon Solutions",
+    period: "Jun, 2024 - Dec, 2024",
     description:
       "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
   },
 ];
 
 export const projects = [
+  {
+    id: "66e3fdafdgdffghgt436erd",
+    name: "VeluxaCleaner",
+    tags: "MERN",
+    description: "VeluxaClean (Client Project) on Join Venture AI",
+    liveLink: "https://veluxaclean.com/",
+    githubLink: "https://github.com/hrmrakib/wilgens-veluxaclean-web-app",
+    image: "/projects/veluxaclean.png",
+  },
   {
     id: "66e3fdafdgdfc8673330ere22fgfg",
     name: "Console Locker",
