@@ -257,11 +257,15 @@ export const technologies = [
     name: "JavaScript",
     image: "/tech/javascript.png",
   },
-
   {
     id: 4,
     name: "TypeScript",
     image: "/tech/typescript.png",
+  },
+  {
+    id: 51,
+    name: "Go Lang",
+    image: "/tech/go.png",
   },
   {
     id: 5,
