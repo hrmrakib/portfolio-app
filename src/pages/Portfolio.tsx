@@ -41,6 +41,11 @@ const Portfolio = () => {
             onClick={() => handleTagClick("React.js")}
           >
             React.js
+            {selectedTag === "React.js" &&
+              " (" +
+                filteredProjects.filter((pro) => pro.tags.includes("React.js"))
+                  .length +
+                ")"}
           </li>
           <li
             className={`cursor-pointer ${
@@ -49,6 +54,11 @@ const Portfolio = () => {
             onClick={() => handleTagClick("Next.js")}
           >
             Next.js
+            {selectedTag === "Next.js" &&
+              " (" +
+                filteredProjects.filter((pro) => pro.tags.includes("Next.js"))
+                  .length +
+                ")"}
           </li>
           <li
             className={`cursor-pointer ${
@@ -57,6 +67,11 @@ const Portfolio = () => {
             onClick={() => handleTagClick("MERN")}
           >
             MERN
+            {selectedTag === "MERN" &&
+              " (" +
+                filteredProjects.filter((pro) => pro.tags.includes("MERN"))
+                  .length +
+                ")"}
           </li>
           <li
             className={`${
@@ -64,7 +79,7 @@ const Portfolio = () => {
             } cursor-pointer`}
             onClick={() => handleTagClick("")}
           >
-            All
+            All {selectedTag === "" && " (" + projects.length + ")"}
           </li>
         </ul>
       </div>
