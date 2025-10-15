@@ -39,7 +39,9 @@ export default function ExperienceSection() {
                   </h3>
                   <p className='text-blue-600 font-medium'>{exp.company}</p>
                   <p className='text-sm text-gray-400 mt-1'>{exp.period}</p>
-                  <p className='text-gray-400 mt-2'>{exp.description}</p>
+                  <p className='text-gray-400 mt-2 whitespace-pre-line'>
+                    {exp.description}
+                  </p>
                 </div>
               </div>
             </div>
@@ -52,7 +54,7 @@ export default function ExperienceSection() {
           <div className='absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-200 hidden md:block'></div>
 
           {experiences.map((exp, index) => (
-            <div 
+            <div
               key={index}
               className={`mb-8 flex flex-col md:flex-row justify-between items-center w-full ${
                 index % 2 === 0 ? "md:flex-row-reverse" : ""

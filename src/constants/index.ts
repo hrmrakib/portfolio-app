@@ -1,17 +1,23 @@
 export const experiences = [
   {
     title: "Frontend Developer",
-    company: "Join Venture AI",
+    company: "Join Venture AI - Onsite",
     period: "Jan, 2025 - Present",
-    description:
-      "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
+    description: `
+    Key Responsibilities:
+      • Developed responsive and user-centric interfaces using React, Next.js, Redux, Tailwind CSS, HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
+
+      • Conducted regular client meetings to gather requirements and ensure accurate implementation on the website.
+
+      • Ensured clear and consistent communication for project planning, status updates, and timely issue resolution.
+    
+    `,
   },
   {
     title: "Frontend Developer",
-    company: "Fastoon Solutions",
+    company: "Fastoon Solutions - Remote",
     period: "Jun, 2024 - Dec, 2024",
-    description:
-      "Build responsive, user-friendly interfaces using React, Next.js, Redux, TailwindCSS, HTML, CSS, and JavaScript, Node.js, Express, MongoDB. Enhanced performance, decreased load time, and collaborated with design teams for seamless UX. Maintain clear and consistent communication for planning, updates, and issue resolution.",
+    description: `Built responsive, user-friendly interfaces using React, Next.js, Redux, Tailwind CSS, HTML, CSS, JavaScript. Enhanced performance, reduced load times, and collaborated closely with design teams to deliver a seamless user experience. Maintained clear and consistent communication for effective planning, progress updates, and issue resolution.`,
   },
 ];
 
