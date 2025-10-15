@@ -77,6 +77,16 @@ export const projects = [
     image: "/projects/gadget-plus.png",
   },
   {
+    id: "66e3fdfddgfdgdgfdgfdo",
+    name: "AI Website",
+    tags: "Next.js",
+    description:
+      "Client Project on Join Venture AI - Client will not be available after completing the frontend development.",
+    liveLink: "https://gabriellawil-ai-web.vercel.app/",
+    githubLink: "https://github.com/hrmrakib/gabriellawil-web",
+    image: "/projects/gabri-ai-website.png",
+  },
+  {
     id: "66e3fdac8673330bf922282e",
     name: "Brain Eye",
     tags: "React.js",
