@@ -18,7 +18,7 @@ const HeroContent = () => {
         id='home'
         className='hero_area bg-[#02050A] text-[#a2a2a2] h-screen'
       >
-        <div className='layer grid grid-cols-1 lg:grid-cols-3 justify-center items-center p-4 lg:p-20'>
+        <div className='relative layer grid grid-cols-1 lg:grid-cols-3 justify-center items-center p-4 lg:p-20'>
           <div className='hero_left col-span-2'>
             <h2 className='text-2xl md:text-4xl lg:text-6xl lg:pt-8 text-white font-extrabold lg:leading-tight'>
               HI, I&apos;M Rakibul!
@@ -45,12 +45,52 @@ const HeroContent = () => {
             </button>
           </div>
 
-          <div className='w-52 justify-self-center hidden md:flex'>
+          <div className='absolute right-[30%] top-[3%] w-36 justify-self-center hidden lg:flex'>
+            <Image
+              className='w-full'
+              width={400}
+              height={400}
+              src='/tech/go-lang.png'
+              alt=''
+            />
+          </div>
+
+          <div className='absolute right-[20%] top-[20%] w-24 justify-self-center hidden lg:flex'>
+            <Image
+              className='w-full'
+              width={200}
+              height={200}
+              src='/tech/nodejs.png'
+              alt=''
+            />
+          </div>
+
+          <div className='w-32 justify-self-center hidden lg:flex'>
             <Image
               className='w-full rotate'
               width={300}
               height={300}
               src='/react.png'
+              alt=''
+            />
+          </div>
+
+          <div className='absolute right-[20%] bottom-[22%] w-24 justify-self-center hidden lg:flex'>
+            <Image
+              className='w-full'
+              width={200}
+              height={200}
+              src='/tech/mongodb.png'
+              alt=''
+            />
+          </div>
+
+          <div className='absolute right-[30%] bottom-[1%] w-20 justify-self-center hidden lg:flex'>
+            <Image
+              className='w-full'
+              width={200}
+              height={200}
+              src='/tech/postgresql.png'
               alt=''
             />
           </div>
