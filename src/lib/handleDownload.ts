@@ -1,10 +1,10 @@
 const handleDownload = () => {
-  const pdfUrl = "Rakibul_Alam_Web_Developer.pdf";
+  const pdfUrl = "Rakibul_Alam_Full-Stack_Developer.pdf.pdf";
 
   const link = document.createElement("a");
 
   link.href = pdfUrl;
-  link.setAttribute("download", "Rakibul_Alam_Web_Developer");
+  link.setAttribute("download", "Rakibul_Alam_Full-Stack_Developer");
 
   document.body.appendChild(link);
   link.click();
