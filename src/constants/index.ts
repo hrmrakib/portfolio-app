@@ -347,12 +347,17 @@ export const technologies = [
     id: 16,
     name: "MongoDB",
     image: "/tech/mongodb.png",
+  },{
+    id: 17,
+    name: "Prisma",
+    image: "/tech/prisma.png",
   },
   {
-    id: 17,
+    id: 18,
     name: "Mongoose",
     image: "/tech/mongoose.png",
   },
+  
 ];
 
 export const education = [
