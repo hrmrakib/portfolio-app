@@ -23,6 +23,16 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "g3425435dshgkdjsh435543",
+    name: "Global Football Vault",
+    tags: "Next.js",
+    description:
+      "Global Football Vault (Client Project) on Join Venture AI - Next.js & DJango Backend",
+    liveLink: "https://globalfootballvault.com/",
+    githubLink: "https://github.com/hrmrakib/samif6-ai-chatbot",
+    image: "/projects/global-football-vault.png",
+  },
+  {
     id: "66e3fdafdgdffghgt436erd",
     name: "VeluxaCleaner",
     tags: "MERN",
@@ -347,7 +357,8 @@ export const technologies = [
     id: 16,
     name: "MongoDB",
     image: "/tech/mongodb.png",
-  },{
+  },
+  {
     id: 17,
     name: "Prisma",
     image: "/tech/prisma.png",
@@ -357,7 +368,6 @@ export const technologies = [
     name: "Mongoose",
     image: "/tech/mongoose.png",
   },
-  
 ];
 
 export const education = [
