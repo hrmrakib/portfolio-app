@@ -91,7 +91,7 @@ export const projects = [
     name: "AI Website",
     tags: "Next.js",
     description:
-      "Client Project on Join Venture AI - Client will not be available after completing the frontend development.",
+      "Client Project on Join Venture AI - Client was not available after completing the frontend development.",
     liveLink: "https://gabriellawil-ai-web.vercel.app/",
     githubLink: "https://github.com/hrmrakib/gabriellawil-web",
     image: "/projects/gabri-ai-website.png",
