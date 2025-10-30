@@ -377,7 +377,7 @@ export const education = [
     subject: "Management",
     institution: "National University of Bangladesh",
     board: "National University",
-    year: "2020 - 2024",
+    year: "2020 - 2025",
     location: "Gazipur, Bangladesh",
   },
   {
