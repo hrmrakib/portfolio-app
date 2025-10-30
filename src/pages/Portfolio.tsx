@@ -36,7 +36,9 @@ const Portfolio = () => {
       <div className='my-14'>
         <ul className='flex items-center flex-wrap justify-center gap-3 *:bg-white *:px-4 *:py-2 *:text-gray-800 *:rounded-lg'>
           <li
-            className={`cursor-pointer ${
+          
+          title="Go Lang - (Project) Coming soon"
+            className={`cursor-not-allowed ${
               selectedTag === "Go" ? "!bg-blue-600 !text-white" : ""
             }`}
             // onClick={() => handleTagClick("React.js")}
