@@ -37,6 +37,20 @@ const Portfolio = () => {
         <ul className='flex items-center flex-wrap justify-center gap-3 *:bg-white *:px-4 *:py-2 *:text-gray-800 *:rounded-lg'>
           <li
             className={`cursor-pointer ${
+              selectedTag === "Go" ? "!bg-blue-600 !text-white" : ""
+            }`}
+            // onClick={() => handleTagClick("React.js")}
+          >
+            Go Lang
+            {/* {selectedTag === "React.js" &&
+              " (" +
+                filteredProjects.filter((pro) => pro.tags.includes("React.js"))
+                  .length +
+                ")"} */}
+          </li>
+
+          <li
+            className={`cursor-pointer ${
               selectedTag === "React.js" ? "!bg-blue-600 !text-white" : ""
             }`}
             onClick={() => handleTagClick("React.js")}
