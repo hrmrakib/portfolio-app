@@ -54,7 +54,7 @@ export const projects = [
     id: "66e3fda43jkf73330ere22fgfg",
     name: "Campus Couch",
     tags: "MERN",
-    description: "Orange Tech Consultants (Client Project) on Join Venture AI",
+    description: "Campus Couch (Client Project) on Join Venture AI",
     liveLink: "https://www.campuscouch.com/",
     githubLink: "https://github.com/hrmrakib/couch-frontend",
     image: "/projects/campus-couch.png",
