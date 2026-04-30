@@ -1,5 +1,5 @@
 import { MdCloudDownload } from "react-icons/md";
-import handleDownload from "../lib/handleDownload";
+// import handleDownload from "../lib/handleDownload";
 import { useState } from "react";
 import { technologies, education } from "@/constants";
 import FloatingDockDemo from "@/components/SocialLink";
@@ -24,13 +24,15 @@ const Skill = () => {
         </h2>
       </div>
       <div className='flex flex-col md:flex-row gap-5 justify-center my-12'>
-        <button
-          onClick={handleDownload}
+        <a
+          href='https://drive.google.com/file/d/1bu30zyk0laiw-CuLvNIRmzqv1EYWbtGS/view?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
           type='button'
           className='text-white flex items-center justify-center gap-2 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-[18px] px-5 py-2.5 text-center me-2 mb-2'
         >
-          <span>Download CV</span> <MdCloudDownload className='text-xl' />
-        </button>
+          <span>Review Resume</span> <MdCloudDownload className='text-xl' />
+        </a>
 
         <button
           onClick={() => handleSkill("technologies")}

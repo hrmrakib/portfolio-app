@@ -7,6 +7,7 @@ const About = () => {
     "Frontend Developer",
     "Backend Developer",
     "Full-Stack Developer",
+    "AI-Driven Developer",
   ];
 
   return (

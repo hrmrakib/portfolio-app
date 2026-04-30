@@ -1,5 +1,5 @@
-import { MdCloudDownload } from "react-icons/md";
-import handleDownload from "../lib/handleDownload";
+import { MdVisibility } from "react-icons/md";
+// import handleDownload from "../lib/handleDownload";
 import { FlipWords } from "../components/ui/flip-words";
 import Image from "next/image";
 import { Meteors } from "../components/ui/meteors";
@@ -10,6 +10,7 @@ const HeroContent = () => {
     "Frontend Developer",
     "Backend Developer",
     "Full-Stack Developer",
+    "AI-Driven Developer",
   ];
 
   return (
@@ -36,13 +37,15 @@ const HeroContent = () => {
               projects and continuously growing in the ever-evolving field of
               software development.
             </p>
-            <button
-              onClick={handleDownload}
+            <a
+              href='https://drive.google.com/file/d/1bu30zyk0laiw-CuLvNIRmzqv1EYWbtGS/view?usp=sharing'
+              target='_blank'
+              rel='noopener noreferrer'
               type='button'
-              className='text-white flex items-center gap-2 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm md:text-base lg:text-lg px-5 py-2.5 text-center me-2 mb-2'
+              className='text-white inline-flex items-center gap-2 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm md:text-base lg:text-lg px-5 py-2.5 text-center me-2 mb-2'
             >
-              Download CV <MdCloudDownload className='text-xl' />
-            </button>
+              Review Resume <MdVisibility className='text-xl' />
+            </a>
           </div>
 
           <div className='absolute right-[30%] top-[3%] w-36 justify-self-center hidden lg:flex'>
