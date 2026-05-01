@@ -398,7 +398,7 @@ export const technologies = [
       { name: "REST API", image: "/tech/restapi.png" },
       { name: "Authentication (JWT)", image: "/tech/auth.png" },
       { name: "MongoDB", image: "/tech/mongodb.png" },
-      { name: "Mongoose", image: "/tech/mongoose.png" },
+      { name: "Mongoose", image: "/tech/mongoose2.png" },
       { name: "PostgreSQL", image: "/tech/postgresql.png", highlight: true },
       { name: "Prisma", image: "/tech/prisma.png" },
     ],
