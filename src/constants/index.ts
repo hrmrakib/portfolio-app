@@ -267,7 +267,7 @@ export const services = [
   },
 ];
 
-export const technologies = [
+export const technologiesOld = [
   {
     id: 1,
     name: "HTML",
@@ -320,8 +320,8 @@ export const technologies = [
   },
   {
     id: 10,
-    name: "Firebase",
-    image: "/tech/firebase.webp",
+    name: "React Query",
+    image: "/tech/react-query.png",
   },
   {
     id: 11,
@@ -370,9 +370,170 @@ export const technologies = [
   },
 ];
 
+export const technologies = [
+  {
+    category: "Frontend Expertise",
+    icon: "🟢",
+    color: "#4ade80",
+    items: [
+      { name: "HTML", image: "/tech/html.png" },
+      { name: "CSS", image: "/tech/css.png" },
+      { name: "JavaScript", image: "/tech/javascript.png" },
+      { name: "TypeScript", image: "/tech/typescript.png" },
+      { name: "React.js", image: "/tech/reactjs.png", highlight: true },
+      { name: "Next.js", image: "/tech/nextjs.png", highlight: true },
+      { name: "Redux", image: "/tech/redux.png" },
+      { name: "React Query", image: "/tech/react-query.png" },
+      { name: "Tailwind CSS", image: "/tech/tailwind.png" },
+    ],
+  },
+
+  {
+    category: "Backend (On-Going)",
+    icon: "🔵",
+    color: "#60a5fa",
+    items: [
+      { name: "Node.js", image: "/tech/nodejs.png", highlight: true },
+      { name: "Express.js", image: "/tech/express.png" },
+      { name: "REST API", image: "/tech/restapi.png" },
+      { name: "Authentication (JWT)", image: "/tech/auth.png" },
+      { name: "MongoDB", image: "/tech/mongodb.png" },
+      { name: "Mongoose", image: "/tech/mongoose.png" },
+      { name: "PostgreSQL", image: "/tech/postgresql.png", highlight: true },
+      { name: "Prisma", image: "/tech/prisma.png" },
+    ],
+  },
+
+  {
+    category: "DevOps & Tools",
+    icon: "🟣",
+    color: "#c084fc",
+    items: [
+      { name: "Git", image: "/tech/git.png", highlight: true },
+      { name: "GitHub", image: "/tech/github.png" },
+      { name: "Docker (Basic)", image: "/tech/docker.png" },
+      { name: "CI/CD (Basic)", image: "/tech/cicd.png" },
+      { name: "Linux (Basic)", image: "/tech/linux.png" },
+      // { name: "Figma", image: "/tech/figma.png" },
+    ],
+  },
+
+  {
+    category: "Programming & Core",
+    icon: "🟡",
+    color: "#facc15",
+    items: [
+      { name: "C++", image: "/tech/cpp.png" },
+      // { name: "Go", image: "/tech/go.png" },
+      {
+        name: "Data Structures & Algorithms",
+        image: "/tech/dsa.png",
+        highlight: true,
+      },
+      { name: "Problem Solving (LeetCode)", image: "/tech/leetcode.png" },
+    ],
+  },
+
+  {
+    category: "Emerging & AI",
+    icon: "🤖",
+    color: "#f472b6",
+    items: [
+      { name: "OpenAI API", image: "/tech/openai.png" },
+      { name: "AI Integration", image: "/tech/ai.png" },
+      { name: "Prompt Engineering", image: "/tech/prompt.png" },
+    ],
+  },
+];
+
 export const education = [
   {
     id: 1,
+    title: "Master Software Engineering",
+    subject: "Master DSA, System Design & CS Fundamentals",
+    institution: "CPS Academy",
+    board: "CPS Academy | Online Premium Course",
+    year: "Feb, 2026 - Present",
+    highlight: true,
+    topicCovered: [
+      "Data Structures (Array, Linked List, Stack, Queue, Heap)",
+      "Algorithms (Sorting, Searching, Greedy)",
+      "Graph Algorithms (DFS, BFS, Shortest Path)",
+      "Dynamic Programming*",
+      "Recursion & Backtracking",
+      "Bit Manipulation & Number Theory",
+      "System Design Basics",
+      "Distributed Systems & Microservices",
+      "Operating System (OS)",
+      "Database Management System (DBMS)",
+      "Object-Oriented Programming (OOP)",
+      "Problem Solving (LeetCode Patterns)",
+    ],
+  },
+  {
+    id: 2,
+    title: "CS Fundamentals",
+    subject: "C/C++ | Data Structures & Algorithms | Problem Solving",
+    institution: "Phitron",
+    board: "Phitron | Online Premium Course",
+    year: "Mar, 2025 - Feb, 2026",
+    topicCovered: [
+      "C Programming Fundamentals",
+      "C++ & STL",
+      "Problem Solving",
+      "Time & Space Complexity",
+      "Arrays, Strings & Pointers",
+      "Linked List, Stack & Queue",
+      "Binary Tree & BST",
+      "Sorting & Searching Algorithms",
+      "Two Pointers & Prefix Sum",
+      "Graph Algorithms (BFS, DFS)",
+      "Dynamic Programming",
+      "Disjoint Set Union (DSU)",
+    ],
+  },
+  {
+    id: 3,
+    title: "Full Stack Development",
+    subject: "Full Stack Development",
+    institution: "Programming Hero",
+    board: "Programming Hero | Online Premium Course",
+    year: "May, 2025 - Oct, 2025",
+    topicCovered: [
+      "TypeScript",
+      "React.js",
+      "Redux",
+      "Next.js",
+      "Node.js & Express.js",
+      "MongoDB & Mongoose",
+      "PostgreSQL & Prisma",
+      "REST API Development",
+      "Authentication & Authorization",
+      "Docker (Basic)",
+      "Deployment & CI/CD",
+      "Full Stack Projects",
+    ],
+  },
+  {
+    id: 4,
+    title: "Frontend Development",
+    subject: "Frontend Development with Basic Backend",
+    institution: "Programming Hero",
+    board: "Programming Hero | Online Premium Course",
+    year: "Jan, 2024 - Sep, 2024",
+    topicCovered: [
+      "HTML & CSS",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Git & GitHub",
+      "Firebase",
+      "Frontend Projects",
+    ],
+  },
+  {
+    id: 5,
     title: "BBA",
     subject: "Management",
     institution: "National University of Bangladesh",
@@ -381,7 +542,7 @@ export const education = [
     location: "Gazipur, Bangladesh",
   },
   {
-    id: 2,
+    id: 6,
     title: "HSC",
     subject: "Business Studies",
     institution: "Gazipur Commerce College",
@@ -390,7 +551,7 @@ export const education = [
     location: "Gazipur, Bangladesh",
   },
   {
-    id: 3,
+    id: 7,
     title: "SSC",
     subject: "Business Studies",
     institution: "Kawaltia Zahir Uddin High School",
@@ -399,7 +560,7 @@ export const education = [
     location: "Gazipur, Bangladesh",
   },
   {
-    id: 4,
+    id: 8,
     title: "JSC",
     subject: "General Studies",
     institution: "Kawaltia Zahir Uddin High School",

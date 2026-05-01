@@ -1,4 +1,5 @@
 import { experiences } from "@/constants";
+import { calculateDuration } from "@/lib/calculateDuration";
 import React from "react";
 
 export default function ExperienceSection() {
@@ -15,6 +16,10 @@ export default function ExperienceSection() {
           <h2 className='text-3xl lg:text-5xl font-extrabold text-white leading-snug max-w-[820px] mx-auto'>
             Creating impactful, user-focused, and reliable web solutions.
           </h2>
+
+          <h3 className='text-gray-400 mt-4'>
+            Total Experience: {calculateDuration("Jun, 2024 - Present")}
+          </h3>
         </div>
         {/* only desktop */}
         <div className='hidden lg:block relative mt-12'>
@@ -34,11 +39,13 @@ export default function ExperienceSection() {
               </div>
               <div className='w-5/12'>
                 <div className='bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'>
-                  <h3 className='text-xl font-semibold text-gray-300'>
+                  <h3 className='text-xl font-semibold text-gray-300 mb-2'>
                     {exp.title}
                   </h3>
                   <p className='text-blue-600 font-medium'>{exp.company}</p>
-                  <p className='text-sm text-gray-400 mt-1'>{exp.period}</p>
+                  <p className='text-sm text-gray-400 mt-1.5'>
+                    {exp.period} - {calculateDuration(exp.period)}
+                  </p>
                   <p className='text-gray-400 mt-2 whitespace-pre-line'>
                     {exp.description}
                   </p>

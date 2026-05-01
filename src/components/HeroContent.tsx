@@ -31,11 +31,13 @@ const HeroContent = () => {
               <FlipWords words={words} className='text-green-500' /> <br />
             </h2>
             <p className='my-p max-w-lg leading-6 mb-6 text-gray-100'>
-              Driven by a passion for modern web technologies, I bring a blend
-              of technical expertise and leadership skills to deliver impactful
-              digital solutions. I’m committed to contributing to innovative
-              projects and continuously growing in the ever-evolving field of
-              software development.
+              I specialize in building scalable, user-focused web applications
+              that balance performance, usability, and clean architecture. I
+              approach development with a focus on clarity, efficiency, and
+              long-term maintainability.
+              <br />
+              <br />I take ownership of my work, solve problems thoughtfully,
+              and strive to deliver results that make a meaningful difference.
             </p>
             <a
               href='https://drive.google.com/file/d/1bu30zyk0laiw-CuLvNIRmzqv1EYWbtGS/view?usp=sharing'
