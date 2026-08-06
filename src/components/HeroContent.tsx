@@ -6,7 +6,6 @@ import { Meteors } from "../components/ui/meteors";
 
 const HeroContent = () => {
   const words = [
-    "Problem Solver",
     "Frontend Developer",
     "Backend Developer",
     "Full-Stack Developer",

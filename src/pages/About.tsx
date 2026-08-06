@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const About = () => {
   const words = [
-    "Problem Solver",
     "Frontend Developer",
     "Backend Developer",
     "Full-Stack Developer",
