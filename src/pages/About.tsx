@@ -69,9 +69,9 @@ const About = () => {
             <p className='text-pink-300'>Dhaka, Bangladesh</p>
           </div>
 
-          <div className='w-20 md:w-36 absolute bottom-2 right-2  rounded-full shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>
+          <div className='w-20 h-20 md:w-36 md:h-36 absolute bottom-2 right-2 rounded-full overflow-hidden shadow-[0_35px_60px_-15px_rgba(100,00,220,0.3)]'>
             <Image
-              className='w-20 md:w-36 profile'
+              className='w-full h-full object-cover profile rounded-full'
               width={200}
               height={200}
               src='/about/rakib.png'

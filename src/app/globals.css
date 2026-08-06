@@ -2,15 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add to your Tailwind config file for better organization */
+:root {
+  --background: #030712;
+  --foreground: #f9fafb;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+/* Glassmorphism Utilities */
+.glass-card {
+  @apply bg-dark-200/50 backdrop-blur-md border border-dark-100 shadow-glass rounded-xl;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-purple-500;
+}
+
+/* Component Styles */
 .icon-style {
-  @apply text-neutral-200 h-5 w-5 flex-shrink-0;
+  @apply text-neutral-400 h-5 w-5 flex-shrink-0 transition-colors group-hover:text-primary-500;
 }
 .container-style {
-  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-neutral-800 w-full mx-auto border border-neutral-700 overflow-hidden h-[60vh];
+  @apply rounded-sm min-h-dvh flex flex-col md:flex-row bg-background w-full mx-auto border-r border-dark-100 overflow-hidden h-[100vh];
 }
 .sidebar-body-style {
-  @apply justify-between gap-10;
+  @apply justify-between gap-10 bg-dark-300 border-r border-dark-100;
 }
 .sidebar-content {
   @apply flex flex-col flex-1 overflow-y-auto overflow-x-hidden;
@@ -18,81 +52,21 @@
 .links-style {
   @apply mt-8 flex flex-col gap-2;
 }
-.avatar-style {
-  @apply h-7 w-7 flex-shrink-0 rounded-full;
-}
 .logo-style {
-  @apply font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20;
+  @apply font-normal flex space-x-2 items-center text-sm py-1 relative z-20;
 }
 .logo-box {
-  @apply h-5 w-6 bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0;
+  @apply h-6 w-6 bg-primary-500 rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0 shadow-glow;
 }
 .logo-text {
-  @apply font-medium text-white whitespace-pre;
-}
-.dashboard-style {
-  @apply p-2 md:p-10 rounded-tl-2xl border border-neutral-700 text-white bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full;
-}
-.content-box {
-  @apply h-20 w-full rounded-lg bg-neutral-800 animate-pulse;
-}
-/* hero-bg */
-.hero_area {
-  background: url("/programming-bg.webp") no-repeat;
-  background-position: right bottom;
-  background-size: 100% 100%;
-  position: relative;
-}
-.layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(8, 8, 8, 0.517);
-}
-.rotate {
-  animation: rotation 18s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-/* profile style */
-.profile {
-  border: 3px solid transparent;
-  background-image: linear-gradient(#ededed, #d1d1d1),
-    linear-gradient(65deg, #f53520 0%, #083be3 75%, #077e15 100%);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-  border-radius: 50%;
-}
-
-/* about page bg-image */
-.about-bg {
-  background: linear-gradient(80deg, #070211ca 0%, rgba(7, 2, 17, 0) 100%),
-    url("/about/programmer.webp") no-repeat;
-  background-position: right bottom;
-  background-size: 100% 100%;
-}
-
-.my-p {
-  color: #a2a2a2;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
+  @apply font-semibold text-white whitespace-pre text-lg tracking-wide;
 }
 
 /* tooltip ============= */
 .live-link {
   position: relative;
 }
-.live-link :hover .icon {
+.live-link:hover .icon {
   color: white;
 }
 .live-link .tooltip {
@@ -107,12 +81,14 @@
   visibility: hidden;
   width: max-content;
   font-size: 14px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
   transition: all 0.3s ease;
 }
 .live-link:hover .tooltip {
   opacity: 1;
   visibility: visible;
-  top: -50px;
+  top: -45px;
 }
 .live-link a {
   position: relative;
@@ -120,57 +96,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  color: #4d4d4d;
-  background-color: #ffffff;
+  color: #9ca3af;
+  background-color: #1f2937;
+  border: 1px solid #374151;
   transition: all 0.3s ease-in-out;
 }
-.live-link a.social {
-  width: 35px;
-  height: 35px;
-  background: rgb(215, 215, 215);
-}
 .live-link a:hover {
-  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+  border-color: #3b82f6;
+  color: #fff;
 }
 .live-link a:hover i {
   color: white;
   z-index: 99;
 }
-.live-link a .filled {
-  position: absolute;
-  top: auto;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0;
-  background-color: #000;
-  transition: all 0.3s ease-in-out;
-}
 
-.live-link a .filled2 {
-  transition: all 199ms ease-in-out;
-}
-
-.live-link a:hover .filled {
-  height: 100%;
-}
-.live-link a[data-link="live"] .filled,
-.live-link a[data-link="live"] ~ .tooltip {
-  background-color: #1db954;
-}
-.live-link a[data-link="code"] .filled,
-.live-link a[data-link="code"] ~ .tooltip {
-  background-color: crimson;
-}
-.live-link a[data-link="linkedin"] .filled {
-  background-color: #0077b5;
-}
-.live-link a[data-link="facebook"] .filled {
-  background-color: rgb(47, 118, 239);
-}
-.live-link a[data-link="github"] .filled {
-  background-color: chocolate;
+.about-bg {
+  background-image: linear-gradient(rgba(3, 7, 18, 0.7), rgba(3, 7, 18, 0.7)), url('/programmer.jpg');
 }

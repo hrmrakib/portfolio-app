@@ -15,9 +15,9 @@ const Blog = dynamic(() => import("@/pages/Blog"));
 
 const App = () => {
   return (
-    <div className='w-full bg-black overflow-y-scroll'>
+    <div className='w-full bg-background overflow-y-scroll overflow-x-hidden relative'>
       <HeroContent />
-      <div className='p-4 lg:px-12'>
+      <div className='w-full container mx-auto'>
         <About />
         <Service />
         <Skill />
