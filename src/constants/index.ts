@@ -23,6 +23,16 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "g3425re3dshgkdjsh435543",
+    name: "Cast Link AI",
+    tags: "Next.js",
+    description:
+      "From Brief to Presentation in Minutes || Al-powered casting workflow that helps you search across agencies, build shortlists and share stunning presentations with clients.",
+    liveLink: "https://poolofcast.com/",
+    githubLink: "https://github.com/hrmrakib/CastLink-AI-Website",
+    image: "/projects/castlink-ai.png",
+  },
+  {
     id: "g3425435dshgkdjsh435543",
     name: "Global Football Vault",
     tags: "Next.js",
