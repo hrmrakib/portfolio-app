@@ -461,10 +461,10 @@ export const technologies = [
       // { name: "Go", image: "/tech/go.png" },
       {
         name: "Data Structures & Algorithms",
-        image: "/tech/pa.webp",
+        image: "/tech/dsa.png",
         highlight: true,
       },
-      { name: "Problem Solving (LeetCode)", image: "/tech/leetcode.png" },
+      { name: "Problem Solving (LeetCode)", image: "/tech/ps.webp" },
     ],
   },
 
