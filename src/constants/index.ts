@@ -411,6 +411,11 @@ export const technologies = [
       { name: "TypeScript", image: "/tech/typescript.png" },
       { name: "React.js", image: "/tech/reactjs.png", highlight: true },
       { name: "Next.js", image: "/tech/nextjs.png", highlight: true },
+      {
+        name: "React Native",
+        image: "/tech/react-native.png",
+        highlight: true,
+      },
       { name: "Redux", image: "/tech/redux.png" },
       { name: "React Query", image: "/tech/react-query.png" },
       { name: "Tailwind CSS", image: "/tech/tailwind.png" },
@@ -439,7 +444,7 @@ export const technologies = [
     color: "#c084fc",
     items: [
       { name: "Git", image: "/tech/git.png", highlight: true },
-      { name: "GitHub", image: "/tech/github.png" },
+      { name: "GitHub", image: "/tech/github.webp" },
       { name: "Docker (Basic)", image: "/tech/docker.png" },
       { name: "CI/CD (Basic)", image: "/tech/cicd.png" },
       { name: "Linux (Basic)", image: "/tech/linux.png" },
@@ -456,7 +461,7 @@ export const technologies = [
       // { name: "Go", image: "/tech/go.png" },
       {
         name: "Data Structures & Algorithms",
-        image: "/tech/dsa.png",
+        image: "/tech/pa.webp",
         highlight: true,
       },
       { name: "Problem Solving (LeetCode)", image: "/tech/leetcode.png" },
