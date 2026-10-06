@@ -23,14 +23,33 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "g3425re3dfdskdjsh435543",
+    name: "GetAvails  - Premium Artist and Venue booking Platfrom",
+    tags: "MERN",
+    description:
+      "GetAvails is a premium artist and venue booking platform. Book world-class artists for your next event",
+    liveLink: "https://getavails.com/",
+    githubLink: "https://github.com/hrmrakib/Getavails-Website",
+    image: "/projects/getavails.png",
+  },
+  {
     id: "g3425re3dshgkdjsh435543",
-    name: "Cast Link AI",
+    name: "Pool Of Cast - AI Powered Casting Workflow",
     tags: "Next.js",
     description:
       "From Brief to Presentation in Minutes || Al-powered casting workflow that helps you search across agencies, build shortlists and share stunning presentations with clients.",
     liveLink: "https://poolofcast.com/",
     githubLink: "https://github.com/hrmrakib/CastLink-AI-Website",
     image: "/projects/castlink-ai.png",
+  },
+  {
+    id: "g3425435dshgkdjsh435543",
+    name: "Rosevaly - Premium Clothing & Lifestyle Store",
+    tags: "MERN",
+    description: "Rosevaly is a premium clothing & lifestyle store.",
+    liveLink: "https://rosevaly.com/",
+    githubLink: "https://github.com/hrmrakib/rosevaly",
+    image: "/projects/rosevaly.png",
   },
   {
     id: "g3425435dshgkdjsh435543",
